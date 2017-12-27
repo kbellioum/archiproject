@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Archidesign &#8211; Architectes LAHLOU</title>
+    <link rel="stylesheet" href="/src/assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="/src/assets/font-awesome/css/font-awesome.min.css">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+    <script type='text/javascript' src='/src/assets/unitegallery/js/unitegallery.min.js'></script>
+
+		<link rel='stylesheet' href='/src/assets/unitegallery/css/unite-gallery.css' type='text/css' />
+		<script type='text/javascript' src='/src/assets/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+		<link rel='stylesheet' href='/src/assets/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
+
+    <link rel="stylesheet" href="/src/assets/css/main.css">
+  </head>
+  <body>
+    <div id="app" class="wrapper"></div>
+    <!-- built files will be auto injected -->
+
+    <script type="text/javascript">
+
+			jQuery(document).ready(function(){
+				jQuery("#gallery").unitegallery({
+          tiles_type:"nested",
+          tile_enable_action: false,
+          tile_as_link: true,
+          tile_link_newpage: false,
+          tiles_nested_optimal_tile_width: 400,
+          grid_num_rows: 13
+        });
+			});
+
+		</script>
+  </body>
+</html>
