@@ -68,11 +68,11 @@ export default {
   mounted () {
     setTimeout(() => {
       this.list = [
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/src/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/src/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/src/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/src/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/src/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
       ]
     }, 1000)
     this.$nextTick(() => {

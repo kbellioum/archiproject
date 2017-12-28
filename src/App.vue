@@ -2,7 +2,7 @@
   <div id="app">
     <header class="header">
       <a class="navbar-brand" href="/">
-        <img src="./assets/images/logo_archidesign.png" width="60" height="60" alt="">
+        <img src="/static/assets/images/logo_archidesign.png" width="60" height="60" alt="">
       </a>
       <div class="deco"></div>
     </header>

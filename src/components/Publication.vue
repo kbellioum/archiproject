@@ -6,13 +6,13 @@
     <!-- <img src="http://via.placeholder.com/1024x500?text=Publication" alt=""> -->
     <div class="" id="gallery">
       <div class="view">
-        <a href="../src/assets/publications/alaakar.pdf">
-        <pdf src="../src/assets/publications/alaakar.pdf"></pdf>
+        <a href="../static/assets/publications/alaakar.pdf">
+        <pdf src="../static/assets/publications/alaakar.pdf"></pdf>
         </a>
       </div>
       <div class="view">
-        <a href="../src/assets/publications/architecturemaroc.pdf">
-        <pdf src="../src/assets/publications/architecturemaroc.pdf"></pdf>
+        <a href="../static/assets/publications/architecturemaroc.pdf">
+        <pdf src="../static/assets/publications/architecturemaroc.pdf"></pdf>
         </a>
       </div>
     </div>

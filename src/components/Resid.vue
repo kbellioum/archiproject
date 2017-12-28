@@ -21,16 +21,16 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../src/assets/homeslider/images/big/img-slider-1.jpg', link: 'resid/projet1'},
-        {id: '2', source: '../src/assets/homeslider/images/big/img-slider-2.jpg', link: 'resid/projet2'},
-        {id: '3', source: '../src/assets/homeslider/images/big/img-slider-3.jpg', link: 'resid/projet3'},
-        {id: '4', source: '../src/assets/homeslider/images/big/img-slider-4.jpg', link: 'resid/projet4'},
-        {id: '5', source: '../src/assets/homeslider/images/big/img-slider-5.jpg', link: 'resid/projet5'},
-        {id: '1', source: '../src/assets/homeslider/images/big/img-slider-1.jpg', link: 'resid/projet6'},
-        {id: '2', source: '../src/assets/homeslider/images/big/img-slider-2.jpg', link: 'resid/projet7'},
-        {id: '3', source: '../src/assets/homeslider/images/big/img-slider-3.jpg', link: 'resid/projet8'},
-        {id: '4', source: '../src/assets/homeslider/images/big/img-slider-4.jpg', link: 'resid/projet9'},
-        {id: '5', source: '../src/assets/homeslider/images/big/img-slider-5.jpg', link: 'resid/projet10'}
+        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'resid/projet1'},
+        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'resid/projet2'},
+        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'resid/projet3'},
+        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'resid/projet4'},
+        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'resid/projet5'},
+        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'resid/projet6'},
+        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'resid/projet7'},
+        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'resid/projet8'},
+        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'resid/projet9'},
+        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'resid/projet10'}
       ]
     }
   },

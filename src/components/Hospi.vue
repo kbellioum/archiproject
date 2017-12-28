@@ -21,11 +21,11 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../src/assets/homeslider/images/big/img-slider-1.jpg', link: '/projets/detail/hospi-projet1'},
-        {id: '2', source: '../src/assets/homeslider/images/big/img-slider-2.jpg', link: '/projets/detail/hospi-projet2'},
-        {id: '3', source: '../src/assets/homeslider/images/big/img-slider-3.jpg', link: '/projets/detail/hospi-projet3'},
-        {id: '4', source: '../src/assets/homeslider/images/big/img-slider-4.jpg', link: '/projets/detail/hospi-projet4'},
-        {id: '5', source: '../src/assets/homeslider/images/big/img-slider-5.jpg', link: '/projets/detail/hospi-projet5'}
+        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: '/projets/detail/hospi-projet1'},
+        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: '/projets/detail/hospi-projet2'},
+        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: '/projets/detail/hospi-projet3'},
+        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: '/projets/detail/hospi-projet4'},
+        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: '/projets/detail/hospi-projet5'}
       ]
     }
   },

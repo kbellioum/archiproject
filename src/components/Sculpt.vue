@@ -56,22 +56,22 @@ export default {
   mounted () {
     setTimeout(() => {
       this.list = [
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/6.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/7.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/8.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/9.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/10.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/11.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/12.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/13.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/14.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/15.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../src/assets/images/drafts/16.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/6.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/7.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/8.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/9.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/10.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/11.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/12.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/13.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/14.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/15.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/16.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
       ]
     }, 1000)
     this.$nextTick(() => {

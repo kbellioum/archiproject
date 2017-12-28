@@ -21,16 +21,16 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../src/assets/homeslider/images/big/img-slider-1.jpg', link: 'restau/projet1'},
-        {id: '2', source: '../src/assets/homeslider/images/big/img-slider-2.jpg', link: 'restau/projet2'},
-        {id: '3', source: '../src/assets/homeslider/images/big/img-slider-3.jpg', link: 'restau/projet3'},
-        {id: '4', source: '../src/assets/homeslider/images/big/img-slider-4.jpg', link: 'restau/projet4'},
-        {id: '5', source: '../src/assets/homeslider/images/big/img-slider-5.jpg', link: 'restau/projet5'},
-        {id: '1', source: '../src/assets/homeslider/images/big/img-slider-1.jpg', link: 'restau/projet6'},
-        {id: '2', source: '../src/assets/homeslider/images/big/img-slider-2.jpg', link: 'restau/projet7'},
-        {id: '3', source: '../src/assets/homeslider/images/big/img-slider-3.jpg', link: 'restau/projet8'},
-        {id: '4', source: '../src/assets/homeslider/images/big/img-slider-4.jpg', link: 'restau/projet9'},
-        {id: '5', source: '../src/assets/homeslider/images/big/img-slider-5.jpg', link: 'restau/projet10'}
+        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'restau/projet1'},
+        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'restau/projet2'},
+        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'restau/projet3'},
+        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'restau/projet4'},
+        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'restau/projet5'},
+        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'restau/projet6'},
+        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'restau/projet7'},
+        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'restau/projet8'},
+        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'restau/projet9'},
+        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'restau/projet10'}
       ]
     }
   },
