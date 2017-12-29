@@ -1,9 +1,12 @@
 <template>
-  <div class="hello">
-
+  <div class="home">
+<!--
     <h1>Menu Contcat</h1>
     <hr>
-    <img src="http://via.placeholder.com/1024x500?text=Carriere" alt="">
+    <img src="http://via.placeholder.com/1024x500?text=Carriere" alt=""> -->
+    
+
+
   </div>
 </template>
 
