@@ -45,7 +45,7 @@ body {
   padding: 5px;
 }
 .image img {
-  box-shadow: 1px 1px 2px white;
+  /* box-shadow: 1px 1px 2px white; */
 }
 .txt {
   grid-area: txt1;
