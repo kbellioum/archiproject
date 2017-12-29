@@ -26,6 +26,8 @@ import Publication from '@/components/Publication'
 import Carriere from '@/components/Carriere'
 import Contact from '@/components/Contact'
 import Nouveau from '@/components/Nouveau'
+import NouveauDetail from '@/components/NouveauDetail'
+import HomeNouveau from '@/components/HomeNouveau'
 
 Vue.use(Router)
 
@@ -38,12 +40,11 @@ export default new Router({
     },
     {
       path: '/agence',
-      name: 'Agence',
       component: Agence,
       children: [
         {
           path: '/',
-          name: 'agence',
+          name: 'Agence',
           component: HomeAgence
         },
         {
@@ -80,12 +81,11 @@ export default new Router({
     },
     {
       path: '/projets',
-      name: 'Projets',
       component: Projets,
       children: [
         {
           path: '/',
-          name: 'projet',
+          name: 'Projets',
           component: HomeProjet
         },
         {
@@ -163,8 +163,20 @@ export default new Router({
     },
     {
       path: '/nouveau',
-      name: 'Nouveau',
-      component: Nouveau
+      component: Nouveau,
+      children: [
+        {
+          path: '/',
+          name: 'Nouveau',
+          component: HomeNouveau
+        },
+        {
+          path: 'detail/:id',
+          name: 'nouveaudetail',
+          component: NouveauDetail,
+          props: true
+        }
+      ]
     }
   ],
   mode: 'history'
