@@ -19,7 +19,7 @@
 
     <div id="gallery" style="display:none;">
       <a v-for="item in list" :href="item.link">
-        <img  alt="Image 1 Title" :src=item.source>
+        <img  class="bord" alt="Image 1 Title" :src=item.source>
       </a>
     </div>
 
@@ -61,5 +61,9 @@ export default {
 } */
 body {
   overflow: visible !important;
+}
+
+.bord {
+  border: 2px solid #0f0f0f !important;
 }
 </style>

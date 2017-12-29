@@ -21,16 +21,11 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'conco/projet1'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'conco/projet2'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'conco/projet3'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'conco/projet4'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'conco/projet5'},
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'conco/projet6'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'conco/projet7'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'conco/projet8'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'conco/projet9'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'conco/projet10'}
+        {id: '12', source: '../static/assets/projects/Conco/Calairis/img00.jpg', link: '/projets/detail/Calairis', title: 'Calairis', category: 'Conco'},
+        {id: '13', source: '../static/assets/projects/Conco/DarAlMakhzene/img00.jpg', link: '/projets/detail/DarAlMakhzene', title: 'DarAlMakhzene', category: 'Conco'},
+        {id: '14', source: '../static/assets/projects/Conco/GrandstadedeCasablanca/img00.jpg', link: '/projets/detail/GrandstadedeCasablanca', title: 'GrandstadedeCasablanca', category: 'Conco'},
+        {id: '15', source: '../static/assets/projects/Conco/Siegedelaregiondedakhla/img00.jpg', link: '/projets/detail/Siegedelaregiondedakhla', title: 'Siegedelaregiondedakhla', category: 'Conco'}
+
       ]
     }
   },

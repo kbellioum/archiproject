@@ -23,16 +23,13 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg'},
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg'}
+        {id: '2', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543287/Adrchiproject/31y.jpg', link: '/projets/detail/Mundiapolis', title: 'Mundiapolis', category: 'Amenag'},
+        {id: '3', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543937/Adrchiproject/2.jpg', link: '/projets/detail/Region_de_dakhla', title: 'Siège de la région de dakhla', category: 'Amenag'},
+        {id: '4', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514542916/Adrchiproject/07.jpg', link: '/projets/detail/Marjane', title: 'Marjane', category: 'Amenag'},
+        {id: '5', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514542954/Adrchiproject/03m.jpg', link: '/projets/detail/The_nest_academy', title: 'The nest academy', category: 'Amenag'},
+        {id: '6', source: '../static/assets/projects/Amenag/cih/img00.jpg', link: '/projets/detail/cih', title: 'CIH', category: 'Amenag'},
+        {id: '7', source: '../static/assets/projects/Amenag/cih6/img00.jpg', link: '/projets/detail/cih6', title: 'CIH 6', category: 'Amenag'},
+        {id: '8', source: '../static/assets/projects/Amenag/ShowroomNespresso/img00.jpg', link: '/projets/detail/ShowroomNespresso', title: 'Showroom Nespresso', category: 'Amenag'}
       ]
     }
   },

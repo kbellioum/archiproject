@@ -21,16 +21,14 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'educ/projet1'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'educ/projet2'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'educ/projet3'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'educ/projet4'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'educ/projet5'},
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: 'educ/projet6'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: 'educ/projet7'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: 'educ/projet8'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: 'educ/projet9'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: 'educ/projet10'}
+        {id: '16', source: '../static/assets/projects/Educ/CrecheThenestacademy/img00.jpg', link: '/projets/detail/CrecheThenestacademy', title: 'CrecheThenestacademy', category: 'Educ'},
+        {id: '17', source: '../static/assets/projects/Educ/EcoleFranceville/img00.jpg', link: '/projets/detail/EcoleFranceville', title: 'EcoleFranceville', category: 'Educ'},
+        {id: '18', source: '../static/assets/projects/Educ/EcoleGARAN/img00.jpg', link: '/projets/detail/EcoleGARAN', title: 'EcoleGARAN', category: 'Educ'},
+        {id: '19', source: '../static/assets/projects/Educ/EcoleMontessori/img00.jpg', link: '/projets/detail/EcoleMontessori', title: 'EcoleMontessori', category: 'Educ'},
+        {id: '20', source: '../static/assets/projects/Educ/LeCedre/img00.jpg', link: '/projets/detail/LeCedre', title: 'LeCedre', category: 'Educ'},
+        {id: '21', source: '../static/assets/projects/Educ/Massalik/img00.jpg', link: '/projets/detail/Massalik', title: 'Massalik', category: 'Educ'},
+        {id: '22', source: '../static/assets/projects/Educ/Mundiapolis/img00.jpg', link: '/projets/detail/Mundiapolis', title: 'Mundiapolis', category: 'Educ'}
+
       ]
     }
   },

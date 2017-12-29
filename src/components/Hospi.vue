@@ -21,11 +21,20 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../static/assets/homeslider/images/big/img-slider-1.jpg', link: '/projets/detail/hospi-projet1'},
-        {id: '2', source: '../static/assets/homeslider/images/big/img-slider-2.jpg', link: '/projets/detail/hospi-projet2'},
-        {id: '3', source: '../static/assets/homeslider/images/big/img-slider-3.jpg', link: '/projets/detail/hospi-projet3'},
-        {id: '4', source: '../static/assets/homeslider/images/big/img-slider-4.jpg', link: '/projets/detail/hospi-projet4'},
-        {id: '5', source: '../static/assets/homeslider/images/big/img-slider-5.jpg', link: '/projets/detail/hospi-projet5'}
+        {id: '23', source: '../static/assets/projects/Hospi/Centredesante/img00.jpg', link: '/projets/detail/Centredesante', title: 'Centredesante', category: 'Hospi'},
+        {id: '24', source: '../static/assets/projects/Hospi/CliniqueAlHakim/img00.jpg', link: '/projets/detail/CliniqueAlHakim', title: 'CliniqueAlHakim', category: 'Hospi'},
+        {id: '25', source: '../static/assets/projects/Hospi/CliniqueAlKindy/img00.jpg', link: '/projets/detail/CliniqueAlKindy', title: 'CliniqueAlKindy', category: 'Hospi'},
+        {id: '26', source: '../static/assets/projects/Hospi/CliniqueAlMadina/img00.jpg', link: '/projets/detail/CliniqueAlMadina', title: 'CliniqueAlMadina', category: 'Hospi'},
+        {id: '27', source: '../static/assets/projects/Hospi/CliniqueBadr/img00.jpg', link: '/projets/detail/CliniqueBadr', title: 'CliniqueBadr', category: 'Hospi'},
+        {id: '28', source: '../static/assets/projects/Hospi/Cliniquebonnesoeuvresducoeur/img00.jpg', link: '/projets/detail/Cliniquebonnesoeuvresducoeur', title: 'Cliniquebonnesoeuvresducoeur', category: 'Hospi'},
+        {id: '29', source: '../static/assets/projects/Hospi/CliniqueCardioCalifornie/img00.jpg', link: '/projets/detail/CliniqueCardioCalifornie', title: 'CliniqueCardioCalifornie', category: 'Hospi'},
+        {id: '30', source: '../static/assets/projects/Hospi/CliniqueDentaire/img00.jpg', link: '/projets/detail/CliniqueDentaire', title: 'CliniqueDentaire', category: 'Hospi'},
+        {id: '31', source: '../static/assets/projects/Hospi/CliniqueGhandi/img00.jpg', link: '/projets/detail/CliniqueGhandi', title: 'CliniqueGhandi', category: 'Hospi'},
+        {id: '32', source: '../static/assets/projects/Hospi/CliniqueGuess/img00.jpg', link: '/projets/detail/CliniqueGuess', title: 'CliniqueGuess', category: 'Hospi'},
+        {id: '33', source: '../static/assets/projects/Hospi/CliniqueLelittoral/img00.jpg', link: '/projets/detail/CliniqueLelittoral', title: 'CliniqueLelittoral', category: 'Hospi'},
+        {id: '34', source: '../static/assets/projects/Hospi/CliniqueMaarif/img00.jpg', link: '/projets/detail/CliniqueMaarif', title: 'CliniqueMaarif', category: 'Hospi'},
+        {id: '35', source: '../static/assets/projects/Hospi/CliniqueYasmine/img00.jpg', link: '/projets/detail/CliniqueYasmine', title: 'CliniqueYasmine', category: 'Hospi'}
+
       ]
     }
   },
