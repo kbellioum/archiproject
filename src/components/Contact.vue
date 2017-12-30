@@ -49,9 +49,9 @@
 
     <section id="contact">
     <div class="container">
-      <div class="map-clean" height="50%">
+      <div class="map-clean">
       <!-- <h2 class="text-center lead" style="font-size:40px;font-style:normal;font-weight:12px;font-family:Montserrat, sans-serif;margin-top:20px;padding-top:0px;margin-bottom:20px;">Contact </h2> -->
-      <iframe allowfullscreen frameborder="0" width="100%" height="50%" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyCIf9ec0liQe-WNjdxZs0D_36SubQ346E8&amp;q=ArchiDesign+2%2Cavenue+hassan+souktani+Casablanca%2C+Maroc&amp;zoom=15"></iframe>
+      <iframe allowfullscreen frameborder="0" width="100%" height="300px" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyCIf9ec0liQe-WNjdxZs0D_36SubQ346E8&amp;q=ArchiDesign+2%2Cavenue+hassan+souktani+Casablanca%2C+Maroc&amp;zoom=15"></iframe>
       </div>
         <div class="row" height="50%">
             <div class="col1">

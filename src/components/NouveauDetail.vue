@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="image">
-      <img src="" alt="">
+      <img src="http://unsplash.it/g/600/400" alt="">
     </div>
     <div class="titre">
       {{ id }}
@@ -11,16 +11,28 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </div>
-
+    <hr>
+    <div class="comments">
+      <vue-disqus shortname="archidesign-1"></vue-disqus>
+    </div>
+    <div class="foot">
+      <!-- Some space for the scrolling -->
+    </div>
   </div>
+
 </template>
 
 <script>
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
+
 export default {
   name: 'Home',
   props: [
     'id'
   ],
+  components: {
+    VueDisqus
+  },
   data () {
     return {
       msg: '',
@@ -69,7 +81,8 @@ export default {
   display: grid;
   grid-template: "im1 im1 im1 im1"
                  "h1 h1 h1 h1"
-                 "txt1 txt1 txt1 txt1";
+                 "txt1 txt1 txt1 txt1"
+                 "dsq dsq dsq dsq";
 }
 
 .image {
@@ -85,6 +98,12 @@ export default {
   padding: 10px;
   text-align: justify;
 }
+.foot {
+  height: 100px;
+}
 
+.comments {
+  grid-area: dsq;
+}
 
 </style>

@@ -27,9 +27,9 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
-
-
-
+    <div class="foot">
+      <!-- Some space for the scrolling -->
+    </div>
   </div>
 </template>
 
@@ -97,6 +97,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+body {
+  overflow: visible !important;
+}
 
 .home {
   display: grid;
@@ -108,15 +111,19 @@ export default {
 .slider {
   grid-area: s;
 }
+
 .head1 {
   grid-area: h1;
 }
+
 .head2 {
   grid-area: h2;
 }
+
 .col1 {
   grid-area: c1;
 }
+
 .col2 {
   grid-area: c2;
 }
@@ -137,9 +144,6 @@ export default {
   text-align: justify;
 }
 
-
-
-
 .pills {
   position: absolute;
   color: #f2f2f2;
@@ -157,6 +161,8 @@ export default {
   border-style:ridge;
   box-shadow: 2px 2px 5px #020202;
 }
-
+.foot {
+  height: 100px;
+}
 
 </style>
