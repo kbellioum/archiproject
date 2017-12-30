@@ -39,18 +39,18 @@
             Archidesign offre un pack de services afin d'accompagner ses clients dans toute les démarches de construction dans le seul but de satisfaire sa clientèle à travers la performance des trois terme qui constitue sa devise:
           </p>
           <br>
-          <h3>Qualité:</h3>
+          <h3 class="pills">&nbsp;Qualité:</h3>
           <p>
             La qualité de nos conceptions ne se limite pas à leur esthétique ou leur design.
             C’est aussi une architecture pragmatique où prime  fonctionnalité et de l’ergonomie.
           </p>
           <br>
-          <h3>Coût:</h3>
+          <h3 class="pills" >&nbsp;Coût:</h3>
           <p>
             Nous assurons une analyse financière rigoureuse et une démarche de contrôle du coût à toute étape du projet.  
           </p>
           <br>
-          <h3>Délais:</h3>
+          <h3 class="pills">&nbsp;Délais:</h3>
           <p>
             Pour respecter et minimiser les délais, nos coordinateurs contrôlent tous les projets en temps réel
           </p>
@@ -173,6 +173,20 @@ export default {
 
 .col-2-pres h3 {
   font-weight: 400;
+}
+
+.pills {
+  border-bottom: 1px solid #ffe501;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 229, 1);
+  border-left: 5px solid #ffe400;
+  margin-bottom: 5px;
+}
+
+h3::first-letter {
+  color: #ffe501;
+  font-size: 130%;
 }
 
 </style>

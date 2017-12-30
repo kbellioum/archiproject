@@ -20,8 +20,14 @@ body {
 
 .header {
     /* position: fixed !important; */
+    /* width: 100%;
+    background: #808080; */
+    position: fixed !important;
     width: 100%;
     background: #808080;
+    z-index: 9000000;
+    top: 0;
+    left: 0;
 }
 
 .navbar-brand {
@@ -188,10 +194,15 @@ nav.main {
 ** Style for the page of the submenu
 */
 .core {
-    height:auto;
+    position: relative;
+    /* height:auto;
     min-height:30px;
     height:auto !important;
     height:30px;
+    background: #ffffff; */
+    top: 100px;
+    /* z-index: -100; */
+    /* padding: 3px; */
     background: #ffffff;
 }
 
