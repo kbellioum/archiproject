@@ -11,6 +11,7 @@ import Gestpro from '@/components/Gestpro'
 import Sculpt from '@/components/Sculpt'
 import Projets from '@/components/Projets'
 import ProjectDetail from '@/components/ProjectDetail'
+import ProjectsDetail from '@/components/ProjectsDetail'
 import HomeProjet from '@/components/HomeProjet'
 import Institu from '@/components/Institu'
 import CentreCom from '@/components/CentreCom'
@@ -142,6 +143,12 @@ export default new Router({
           path: 'detail/:id',
           name: 'projectdetail',
           component: ProjectDetail,
+          props: true
+        },
+        {
+          path: 'details/:id',
+          name: 'projectsdetail',
+          component: ProjectsDetail,
           props: true
         }
       ]
