@@ -88,6 +88,10 @@ export default {
 .image {
   grid-area: im1;
 }
+
+.image img {
+  width: 100%;
+}
 .titre {
   grid-area: h1;
   /* padding-left: 10px; */
@@ -104,6 +108,7 @@ export default {
 
 .comments {
   grid-area: dsq;
+  padding: 30px;
 }
 
 </style>
