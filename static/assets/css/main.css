@@ -161,7 +161,7 @@ nav.main {
 	width: 100%;
 	position: absolute;
 	left: 0;
-  top: 99px;
+  top: 84.5px;
   background: #ffe400;
 }
 
@@ -199,7 +199,7 @@ nav.main {
     height:auto !important;
     height:30px;
     background: #ffffff; */
-    top: 100px;
+    top: 85px;
     /* z-index: -100; */
     /* padding: 3px; */
     background: #ffffff;

@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="image">
-      <img src="http://unsplash.it/g/600/400" alt="">
+      <img src="https://placeimg.com/640/200/arch" alt="">
     </div>
     <div class="titre">
-      {{ id }}
+      <h1>{{ id }}</h1>
     </div>
     <div class="article">
         <p>
@@ -83,6 +83,9 @@ export default {
                  "h1 h1 h1 h1"
                  "txt1 txt1 txt1 txt1"
                  "dsq dsq dsq dsq";
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 .image {
@@ -109,6 +112,16 @@ export default {
 .comments {
   grid-area: dsq;
   padding: 30px;
+}
+
+.titre h1 {
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.titre h1::first-letter {
+  font-size: 130%;
+  text-transform: uppercase;
 }
 
 </style>

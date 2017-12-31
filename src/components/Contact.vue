@@ -51,7 +51,7 @@
     <div class="container">
       <div class="map-clean">
       <!-- <h2 class="text-center lead" style="font-size:40px;font-style:normal;font-weight:12px;font-family:Montserrat, sans-serif;margin-top:20px;padding-top:0px;margin-bottom:20px;">Contact </h2> -->
-      <iframe allowfullscreen frameborder="0" width="100%" height="300px" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyCIf9ec0liQe-WNjdxZs0D_36SubQ346E8&amp;q=ArchiDesign+2%2Cavenue+hassan+souktani+Casablanca%2C+Maroc&amp;zoom=15"></iframe>
+      <iframe allowfullscreen frameborder="0" width="100%" height="450px" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyCIf9ec0liQe-WNjdxZs0D_36SubQ346E8&amp;q=ArchiDesign+2%2Cavenue+hassan+souktani+Casablanca%2C+Maroc&amp;zoom=15"></iframe>
       </div>
         <div class="row" height="50%">
             <div class="col1">
@@ -79,6 +79,9 @@
 
     </div>
 </section>
+  <div class="foot">
+    <!-- Some space for the scrolling -->
+  </div>
   </div>
 </template>
 
@@ -138,12 +141,24 @@ export default {
 .row {
   display: grid;
   grid-template: "c1 c2"
-                 "btn2 btn2";
+                 "btn2 btn3";
 }
 
 .btn {
-  grid-area: btn2;
-  justify-self: center;
+  /* position: fixed;
+  top: 85%;
+  bottom: 120px;
+  grid-area: btn3;
+  justify-self: end; */
+
+  position: fixed;
+  /* top: 90%; */
+  bottom: 65px;
+  grid-area: btn3;
+  justify-self: end;
+  z-index: 9999999999;
+  right: 0;
+  left: 93%;
 }
 
 .col1 {
@@ -540,6 +555,8 @@ textarea {
   opacity: 0;
   transform: translateY(24px);
 }
-
+.foot {
+  height: 100px;
+}
 
 </style>

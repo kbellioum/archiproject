@@ -2,7 +2,7 @@
   <div class="home" :height="(windowHeight-175-78) + 'px'">
     <!-- <div class="text"> -->
       <!-- <h1>Présentation de l'agence</h1> -->
-        <div class="row-1">
+        <div class="row-1 animated slideInDown">
           <center><h1>Presentation de l'agence</h1></center>
           <br>
         </div>
@@ -15,46 +15,77 @@
               Archi Design assure la maîtrise d’œuvre de tout projet dans les domaines :
             </p>
           <br>
+        </div>
+
+        <div class="col-3-1 animated fadeIn">
+          <div class="">
+            <i class="fa fa-building-o size" aria-hidden="true"></i>
+          </div>
+          <br>
           Architecture <br>
+        </div>
+        <div class="col-3-2 animated fadeIn">
+          <div class="">
+            <i class="fa fa-home size" aria-hidden="true"></i>
+          </div>
+          <br>
           Aménagement<br>
+        </div>
+        <div class="col-3-3 animated fadeIn">
+          <div class="">
+            <i class="fa fa-university size" aria-hidden="true"></i>
+          </div>
+          <br>
           Urbanisme  <br>
+        </div>
+
+        <div class="col-2-pres">
           <br>
             <p>
               Plusieurs services complémentaires ont été développé par le groupe afin d’offrir les réponses les mieux adaptées :<br>
             </p>
           <br>
-            Choix du foncier <br>
-          Etude de faisabilité et de rentabilité <br>
-          Conception architecturale <br>
-          Détail technique <br>
-
-        </div>
-        <div class="col-2-pres">
-          Design intérieur <br>
-          Aménagement paysager  <br>
-          Coordination étude et chantier  <br>
-          Maitrise d'ouvrage délégué <br>
+          <ul>
+            <li>&nbsp;Choix du foncier </li>
+            <li>&nbsp;Etude de faisabilité et de rentabilité</li>
+            <li>&nbsp;Conception architecturale</li>
+            <li>&nbsp;Détail technique</li>
+            <li>&nbsp;Design intérieur</li>
+            <li>&nbsp;Aménagement paysager</li>
+            <li>&nbsp;Coordination étude et chantier</li>
+            <li>&nbsp;Maitrise d'ouvrage délégué</li>
+          </ul>
           <br>
           <p>
             Archidesign offre un pack de services afin d'accompagner ses clients dans toute les démarches de construction dans le seul but de satisfaire sa clientèle à travers la performance des trois terme qui constitue sa devise:
           </p>
-          <br>
+
+        </div>
+
+        <div class="anim animated slideInLeft quality">
+          <div class=""><i class="fa fa-quora size"></i></div>
           <h3 class="pills">&nbsp;Qualité:</h3>
+          <br>
           <p>
             La qualité de nos conceptions ne se limite pas à leur esthétique ou leur design.
             C’est aussi une architecture pragmatique où prime  fonctionnalité et de l’ergonomie.
           </p>
-          <br>
+        </div>
+        <div class="anim animated slideInUp cost">
+          <div class=""><i class="fa fa-usd size"></i></div>
           <h3 class="pills" >&nbsp;Coût:</h3>
+          <br>
           <p>
             Nous assurons une analyse financière rigoureuse et une démarche de contrôle du coût à toute étape du projet.  
           </p>
-          <br>
+        </div>
+        <div class="anim animated slideInRight detail">
+          <div class=""><i class="fa fa-cog size"></i></div>
           <h3 class="pills">&nbsp;Délais:</h3>
+          <br>
           <p>
             Pour respecter et minimiser les délais, nos coordinateurs contrôlent tous les projets en temps réel
           </p>
-
         </div>
     <!-- </div> -->
     <div class="photo">
@@ -106,9 +137,12 @@ export default {
 
 .home {
   display: grid;
-  grid-template: "h h h h"
-                 "c1 c1 c2 c2"
-                 "i i i i";
+  grid-template: "h h h"
+                 "c1 c1 c1"
+                 "c31 c32 c33"
+                 "c2 c2 c2"
+                 "q c d"
+                 "i i i";
   grid-template-rows: 25% 25% 25%;
   grid-gap: 10px;
   height:auto;
@@ -117,8 +151,113 @@ export default {
   height:50px;
 }
 
-.text {
+.home .row-1 {
+    margin: 0 40px;
+}
+.home .col-1-pres {
+    margin: 0 40px;
+}
+.home .col-2-pres {
+    margin: 0 40px;
+}
 
+.quality {
+  grid-area: q;
+  padding: 20px 40px;
+}
+
+.quality div {
+  width: 90px; height: 90px;
+  margin: 3em auto;
+  background: #fff;
+  border: 10px solid #ffe400;
+  border-radius: 30px;
+  transition: border-radius 2s, border-color 3s;
+  text-align: center;
+}
+.cost div {
+  width: 90px; height: 90px;
+  margin: 3em auto;
+  background: #fff;
+  border: 10px solid #ffe400;
+  border-radius: 30px;
+  transition: border-radius 2s, border-color 3s;
+  text-align: center;
+}
+
+/* Animation  */
+.anim div {
+  width: 90px; height: 90px;
+  margin: 3em auto;
+  background: #fff;
+  border: 10px solid #ffe400;
+  border-radius: 30px;
+  transition: border-radius 2s, border-color 3s;
+  text-align: center;
+}
+
+
+.anim div:hover {
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
+	transition: all 2s;
+}
+
+.anim div:after {
+	content: "";
+	position:relative;
+	top: 120px;
+	left:-14px;
+	font-size: 1.25em;
+	font-family: helvetica, arial, sans-serif;
+	font-variant: small-caps;
+	color:#888;
+	opacity:0;
+	transition: opacity 2s;
+}
+.anim div:hover:after {
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+
+/* Fin Animation */
+
+
+.size {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #ffe400;
+}
+
+
+.cost {
+  grid-area: c;
+  padding: 20px 40px;
+}
+
+.detail {
+  grid-area: d;
+  padding: 20px 40px;
+}
+
+.detail {
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
+}
+.cost {
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
+}
+.quality {
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
+}
+
+.row-1 {
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
 }
 
 .col-1-pres {
@@ -131,6 +270,25 @@ export default {
   grid-area: c2;
   margin: 5px;
   padding: 5px;
+}
+
+.col-3-1 {
+  grid-area: c31;
+  text-align: center;
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
+}
+.col-3-2 {
+  grid-area: c32;
+  text-align: center;
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
+}
+.col-3-3 {
+  grid-area: c33;
+  text-align: center;
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 3s;
 }
 
 .row-1 {
@@ -180,13 +338,23 @@ export default {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(255, 229, 1);
-  border-left: 5px solid #ffe400;
+  border-left: 4px double #ffe400;
   margin-bottom: 5px;
 }
 
 h3::first-letter {
   color: #ffe501;
   font-size: 130%;
+}
+li {
+  color: gray;
+}
+
+li::before {
+  content: "• ";
+  color: #ffe400;
+  padding-left: 1em;
+  margin-left: 1em;
 }
 
 </style>
