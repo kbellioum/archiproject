@@ -53,7 +53,7 @@
       <!-- <h2 class="text-center lead" style="font-size:40px;font-style:normal;font-weight:12px;font-family:Montserrat, sans-serif;margin-top:20px;padding-top:0px;margin-bottom:20px;">Contact </h2> -->
       <iframe allowfullscreen frameborder="0" width="100%" height="450px" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyCIf9ec0liQe-WNjdxZs0D_36SubQ346E8&amp;q=ArchiDesign+2%2Cavenue+hassan+souktani+Casablanca%2C+Maroc&amp;zoom=15"></iframe>
       </div>
-        <div class="row" height="50%">
+        <div class="row">
             <div class="col1">
                 <h2>Adresse :</h2>
                 <p class="lead">2, Avenue Hassan Souktani </p>
@@ -70,10 +70,16 @@
                 <p class="lead">F : 05 22 20 79 90</p>
                 <p class="lead">Mail : contact@archidesign.ma</p>
             </div>
+            <div class="suite animated infinite slideInDown">
+              <h2>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </h2>
+            </div>
             <div class="btn">
-              <div class="ph3">
-                <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0" @click="show">Laisser nous un message</a>
+              <div class="" @click="show">
+                Laisser nous un message
               </div>
+
             </div>
         </div>
 
@@ -141,24 +147,33 @@ export default {
 .row {
   display: grid;
   grid-template: "c1 c2"
-                 "btn2 btn3";
+                 "s s"
+                 "btn2 btn2";
 }
 
 .btn {
-  /* position: fixed;
-  top: 85%;
-  bottom: 120px;
-  grid-area: btn3;
-  justify-self: end; */
+  grid-area: btn2;
+}
 
-  position: fixed;
-  /* top: 90%; */
-  bottom: 65px;
-  grid-area: btn3;
-  justify-self: end;
-  z-index: 9999999999;
-  right: 0;
-  left: 93%;
+
+.suite {
+  grid-area: s;
+  text-align: center;
+  margin-top: 25px;
+  color: gray;
+}
+.btn div {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.btn div:hover {
+  background-color: rgba(255, 228, 0, 0.5);
+  color: black;
 }
 
 .col1 {
