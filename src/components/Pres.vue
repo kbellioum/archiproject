@@ -2,7 +2,7 @@
   <div class="home" :height="(windowHeight-175-78) + 'px'">
     <!-- <div class="text"> -->
       <!-- <h1>Présentation de l'agence</h1> -->
-        <div class="row-1 animated slideInDown">
+        <div class="row-1" data-aos="slide-down">
           <center><h1>Presentation de l'agence</h1></center>
           <br>
         </div>
@@ -17,21 +17,21 @@
           <br>
         </div>
 
-        <div class="col-3-1 animated fadeIn">
+        <div class="col-3-1" data-aos="fade" data-aos-offset="200">
           <div class="">
             <i class="fa fa-building-o size" aria-hidden="true"></i>
           </div>
           <br>
           Architecture <br>
         </div>
-        <div class="col-3-2 animated fadeIn">
+        <div class="col-3-2" data-aos="fade" data-aos-offset="200">
           <div class="">
             <i class="fa fa-home size" aria-hidden="true"></i>
           </div>
           <br>
           Aménagement<br>
         </div>
-        <div class="col-3-3 animated fadeIn">
+        <div class="col-3-3" data-aos="fade" data-aos-offset="200">
           <div class="">
             <i class="fa fa-university size" aria-hidden="true"></i>
           </div>
@@ -62,7 +62,7 @@
 
         </div>
 
-        <div class="anim animated slideInLeft quality">
+        <div class="anim quality" data-aos="slide-right" data-aos-offset="200">
           <div class=""><i class="fa fa-quora size"></i></div>
           <h3 class="pills">&nbsp;Qualité:</h3>
           <br>
@@ -71,7 +71,7 @@
             C’est aussi une architecture pragmatique où prime  fonctionnalité et de l’ergonomie.
           </p>
         </div>
-        <div class="anim animated slideInUp cost">
+        <div class="anim cost" data-aos="slide-up" data-aos-offset="200">
           <div class=""><i class="fa fa-usd size"></i></div>
           <h3 class="pills" >&nbsp;Coût:</h3>
           <br>
@@ -79,7 +79,7 @@
             Nous assurons une analyse financière rigoureuse et une démarche de contrôle du coût à toute étape du projet.  
           </p>
         </div>
-        <div class="anim animated slideInRight detail">
+        <div class="anim detail" data-aos="slide-left" data-aos-offset="200">
           <div class=""><i class="fa fa-cog size"></i></div>
           <h3 class="pills">&nbsp;Délais:</h3>
           <br>
