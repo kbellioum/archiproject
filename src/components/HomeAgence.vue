@@ -7,15 +7,15 @@
                 <h2 class="text-center lead" >A propos de nous </h2>
             </div>
             <div class="txt">
-                <p class="center styl" data-aos="slide-right" data-aos-delay="400">
+                <p class="center styl" data-aos="fade-right">
                   Archi Design a été créé en 1985 au Canada et s’est implanté au Maroc au début des années 90.
                   La maîtrise du secteur du bâtiment et la passion pour l’architecture contemporaine et internationale sont les moteurs de la création d’Archi Design.Aujourd’hui,
                   Archi Design est composée d’une équipe de professionnels dans le secteur du bâtiment attirée par la passion et la rigueur indispensables à la réussite de tout projet. </p>
             </div>
-            <div class="cadre" data-aos="slide-left" data-aos-delay="500">
+            <div class="cadre" data-aos="fade-left">
               <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806290/Adrchiproject/cadre.png" width="208" />
             </div>
-            <div class="txt2" data-aos="slide-down" data-aos-delay="1000">
+            <div class="txt2" data-aos="fade-down">
                 <p class="lead" >Années </p>
                 <p class="lead" >Expériences </p>
                 <p class="lead" >Travail </p>
@@ -26,28 +26,28 @@
     </div>
 
     <div class="row2">
-      <div class="one" data-aos="slide-up" data-aos-duration="400">
+      <div class="one" data-aos="slide-up">
         <div class="center">
           <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-1.png">
         </div>
 
         <h3>ARCHITECTURE &amp; URBANISME</h3>
       </div>
-      <div class="two" data-aos="slide-up" data-aos-duration="400">
+      <div class="two" data-aos="slide-up">
         <div class="center">
           <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-2.png">
         </div>
 
         <h3>DECORATION &amp; DESIGN</h3>
       </div>
-      <div class="tree" data-aos="slide-up" data-aos-duration="400">
+      <div class="tree" data-aos="slide-up">
         <div class="center">
           <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-3.png">
         </div>
 
         <h3>GESTION DE PROJETS</h3>
       </div>
-      <div class="four" data-aos="slide-up" data-aos-duration="400">
+      <div class="four" data-aos="slide-up">
         <div class="center">
           <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-4.png">
         </div>
@@ -56,12 +56,21 @@
       </div>
     </div>
 
+    <div class="said">
+      <h2>L'architecte</h2>
+    </div>
+    <div class="suite animated infinite slideInDown">
+      <h2>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </h2>
+    </div>
+
     <div class="page-agence" height="50%">
 
-      <div class="photo" height="100%">
+      <div class="photo" height="100%" data-aos="fade-right">
         <img src="https://res.cloudinary.com/kbellioum/image/upload/v1513601388/said_wiv5oq.jpg" alt="">
       </div>
-      <div class="text">
+      <div class="text" data-aos="fade-left">
         <div class="">
           Said Lahlou débute sa carrière professionnelle en 1984 en obtenant son diplôme d'Architecte de l'Université
           du Québec, puis deux autres diplômes en 1986 et 1987 de la Faculté de l'Urbanisme de Montréal et de la
@@ -158,6 +167,7 @@ export default {
   grid-template: "d e f g";
   justify-items: center;
   margin: 35px;
+  padding-bottom: 45px;
 }
 
 .head {
@@ -220,4 +230,21 @@ export default {
   height: 100px;
 }
 
+.said {
+  text-align: center;
+  font-weight: 300;
+  font-size: 45px;
+  margin: 30px;
+}
+
+.said h2::first-letter {
+  color: #ffe400;
+  font-size: 150%;
+}
+
+.suite {
+  text-align: center;
+  color: gray;
+  font-size: 25px;
+}
 </style>
