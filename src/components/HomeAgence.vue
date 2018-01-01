@@ -1,6 +1,61 @@
 <template>
   <div class="main-agence">
     <!-- <img src="http://via.placeholder.com/1024x500?text=Agence" alt=""> -->
+
+    <div class="container">
+            <div class="head" data-aos="slide-down">
+                <h2 class="text-center lead" >A propos de nous </h2>
+            </div>
+            <div class="txt">
+                <p class="center styl" data-aos="slide-right" data-aos-delay="400">
+                  Archi Design a été créé en 1985 au Canada et s’est implanté au Maroc au début des années 90.
+                  La maîtrise du secteur du bâtiment et la passion pour l’architecture contemporaine et internationale sont les moteurs de la création d’Archi Design.Aujourd’hui,
+                  Archi Design est composée d’une équipe de professionnels dans le secteur du bâtiment attirée par la passion et la rigueur indispensables à la réussite de tout projet. </p>
+            </div>
+            <div class="cadre" data-aos="slide-left" data-aos-delay="500">
+              <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806290/Adrchiproject/cadre.png" width="208" />
+            </div>
+            <div class="txt2" data-aos="slide-down" data-aos-delay="1000">
+                <p class="lead" >Années </p>
+                <p class="lead" >Expériences </p>
+                <p class="lead" >Travail </p>
+            </div>
+
+
+
+    </div>
+
+    <div class="row2">
+      <div class="one" data-aos="slide-up" data-aos-duration="400">
+        <div class="center">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-1.png">
+        </div>
+
+        <h3>ARCHITECTURE &amp; URBANISME</h3>
+      </div>
+      <div class="two" data-aos="slide-up" data-aos-duration="400">
+        <div class="center">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-2.png">
+        </div>
+
+        <h3>DECORATION &amp; DESIGN</h3>
+      </div>
+      <div class="tree" data-aos="slide-up" data-aos-duration="400">
+        <div class="center">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-3.png">
+        </div>
+
+        <h3>GESTION DE PROJETS</h3>
+      </div>
+      <div class="four" data-aos="slide-up" data-aos-duration="400">
+        <div class="center">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-4.png">
+        </div>
+
+        <h3>SUIVI &amp; COORDINATION</h3>
+      </div>
+    </div>
+
     <div class="page-agence" height="50%">
 
       <div class="photo" height="100%">
@@ -23,6 +78,10 @@
         </div>
 
       </div>
+    </div>
+
+    <div class="foot">
+      <!-- Some space for the scrolling -->
     </div>
 
   </div>
@@ -85,6 +144,80 @@ export default {
 .photo img {
   width: 100%;
   box-shadow: 2px 2px 7px #020202;
+}
+
+.container {
+  display: grid;
+  grid-template: "h h h h h"
+                 "a a b c c";
+
+}
+
+.row2 {
+  display: grid;
+  grid-template: "d e f g";
+  justify-items: center;
+  margin: 35px;
+}
+
+.head {
+  grid-area: h;
+  text-align: center;
+  font-weight: 300;
+  font-size: 35px;
+  margin: 30px;
+}
+
+.txt {
+  grid-area: a;
+}
+
+.cadre {
+  grid-area: b;
+  padding-top: 14px;
+}
+.txt2 {
+  grid-area: c;
+  margin: 20px;
+  padding-top: 62px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.one {
+  grid-area: d;
+}
+
+.two {
+  grid-area: e;
+}
+
+.tree {
+  grid-area: f;
+}
+
+.four {
+  grid-area: g;
+  justify-items: center;
+}
+
+.center img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.styl {
+  margin: 5px;
+  padding: 19px;
+  font-size: 23px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.foot {
+  height: 100px;
 }
 
 </style>
