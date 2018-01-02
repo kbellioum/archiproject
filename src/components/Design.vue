@@ -86,6 +86,7 @@ export default {
 }
 .text p {
   padding: 10px;
+  font-weight: 100;
   text-align: justify;
 }
 

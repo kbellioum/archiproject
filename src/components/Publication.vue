@@ -19,7 +19,7 @@
 
     <div id="gallery" style="display:none;">
       <a v-for="item in list" :href="item.link">
-        <img  class="bord" alt="Image 1 Title" :src=item.source>
+        <img  class="bord" :alt="item.title" :src=item.source>
       </a>
     </div>
 
@@ -37,17 +37,17 @@ export default {
     return {
       msg: '',
       list: [
-        {id: '1', source: '../static/assets/publications/architecturemaroc.png', link: '../static/assets/publications/architecturemaroc.pdf'},
-        {id: '2', source: '../static/assets/publications/alaakar.png', link: '../static/assets/publications/alaakar.pdf'},
-        {id: '3', source: '../static/assets/publications/installmaroc.png', link: '../static/assets/publications/installmaroc.pdf'},
-        {id: '4', source: '../static/assets/publications/maison_du_maroc.png', link: '../static/assets/publications/maison_du_maroc.pdf'},
-        {id: '5', source: '../static/assets/publications/premium.png', link: '../static/assets/publications/premium.pdf'},
-        {id: '6', source: '../static/assets/publications/prestige.png', link: '../static/assets/publications/prestige.pdf'},
-        {id: '7', source: '../static/assets/publications/deco_actual.png', link: '../static/assets/publications/deco_actual.pdf'},
-        {id: '8', source: '../static/assets/publications/brandup.png', link: '../static/assets/publications/brandup.pdf'},
-        {id: '9', source: '../static/assets/publications/challenge.png', link: '../static/assets/publications/challenge.pdf'},
-        {id: '10', source: '../static/assets/publications/leconomiste.png', link: '../static/assets/publications/leconomiste.pdf'},
-        {id: '11', source: '../static/assets/publications/presse.png', link: '../static/assets/publications/presse.pdf'}
+        {id: '1', title: 'Architecture Maroc', source: '../static/assets/publications/architecturemaroc.png', link: '../static/assets/publications/architecturemaroc.pdf'},
+        {id: '2', title: 'Alaakar', source: '../static/assets/publications/alaakar.png', link: '../static/assets/publications/alaakar.pdf'},
+        {id: '3', title: 'Install Maroc', source: '../static/assets/publications/installmaroc.png', link: '../static/assets/publications/installmaroc.pdf'},
+        {id: '4', title: 'Maison du Maroc', source: '../static/assets/publications/maison_du_maroc.png', link: '../static/assets/publications/maison_du_maroc.pdf'},
+        {id: '5', title: 'Premium', source: '../static/assets/publications/premium.png', link: '../static/assets/publications/premium.pdf'},
+        {id: '6', title: 'Prestige', source: '../static/assets/publications/prestige.png', link: '../static/assets/publications/prestige.pdf'},
+        {id: '7', title: 'Deco Actual', source: '../static/assets/publications/deco_actual.png', link: '../static/assets/publications/deco_actual.pdf'},
+        {id: '8', title: 'BrandUp', source: '../static/assets/publications/brandup.png', link: '../static/assets/publications/brandup.pdf'},
+        {id: '9', title: 'Challenge', source: '../static/assets/publications/challenge.png', link: '../static/assets/publications/challenge.pdf'},
+        {id: '10', title: 'L\'economiste', source: '../static/assets/publications/leconomiste.png', link: '../static/assets/publications/leconomiste.pdf'},
+        {id: '11', title: 'Presse', source: '../static/assets/publications/presse.png', link: '../static/assets/publications/presse.pdf'}
 
       ]
     }

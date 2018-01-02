@@ -1,5 +1,5 @@
 <template>
-  <div class="home" :height="windowHeight-175 + 'px'">
+  <div class="home" :height="windowHeight-160 + 'px'">
     <div class="text">
       <h1>Titre</h1>
       <p>
@@ -16,7 +16,7 @@
     <div class="image3">
       <img src="../assets/images/urbanisme/image03.png" alt="">
     </div> -->
-    <div class="accordion images" :height="windowHeight-175 + 'px'">
+    <div class="accordion images" :height="windowHeight-160 + 'px'">
   <ul>
     <li>
       <div> <a href="#">
@@ -176,13 +176,13 @@ export default {
   display: block;
   overflow: hidden;
   width: 100%;
-  height: 630px;
+  height: 640px;
   /* height: 100%; */
 }
 
 .accordion ul li div a {
   display: block;
-  height: 630px;
+  height: 640px;
   /* height: 100%; */
   width: 100%;
   position: relative;

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div id="slider" class="slider">
-      <slider animation="fade" height="500px">
+      <slider animation="fade" :height="windowHeight-160 + 'px'">
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
           <div :style="i">
@@ -11,13 +11,13 @@
         </slider-item>
       </slider>
     </div>
-    <div class="head1">
+    <!-- <div class="head1">
         <h2>Infos</h2>
     </div>
     <div class="head2">
        <h2>{{ id }}</h2>
-    </div>
-    <div class="col1">
+    </div> -->
+    <!-- <div class="col1">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
@@ -26,8 +26,18 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </div>
-    <div class="foot">
+    </div> -->
+    <div href="#" id='a' class="detonator animated slideInLeft" >
+       <div id="textinfo" class="animated infinite flash">Plus d'info</div>
+
+       <div id='b' class="cible">
+         <h1>Titre</h1>
+         <p>
+           <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odit perferendis quidem dolorem, iste consectetur dolore? Rem qui enim modi beatae, itaque neque natus nam minima nisi sit minus inventore?</div>
+         </p>
+       </div>
+     </div>
+    <div class="">
       <!-- Some space for the scrolling -->
     </div>
   </div>
@@ -162,7 +172,58 @@ body {
   box-shadow: 2px 2px 5px #020202;
 }
 .foot {
-  height: 100px;
+  height: 90px;
+}
+
+.detonator {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid gray;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s;
+  transition-timing-function: ease-in;
+  overflow: hidden;
+  z-index: 999999999;
+  color: white;
+}
+
+.cible {
+  display: none;
+
+}
+
+.cible h1 {
+  margin: 0;
+  padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.cible div {
+  text-align: justify;
+  padding: 7px;
+  color: white;
+}
+
+.detonator:hover {
+  height: 200px;
+  width: 300px;
+}
+
+#a:hover > #b {
+  display: block;
+}
+#textinfo {
+  text-align: center;
+  padding: 3px;
+  border-bottom: 1px solid gray;
+  -vendor-animation-duration: 4s;
+  -vendor-animation-delay: 3s;
 }
 
 </style>
