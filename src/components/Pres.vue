@@ -80,7 +80,7 @@
           </p>
         </div>
         <div class="anim detail" data-aos="slide-left" data-aos-offset="200">
-          <div class=""><i class="fa fa-cog size"></i></div>
+          <div class=""><i class="fa fa-clock-o size"></i></div>
           <h3 class="pills">&nbsp;Délais:</h3>
           <br>
           <p>
