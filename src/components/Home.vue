@@ -4,9 +4,9 @@
       <slider animation="fade" :height="windowHeight-160 + 'px'">
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
-          <div :style="i">
-            <img :src="i.src" alt="" style="height: 100%; width: 100%;">
-            <p class="pills">{{ i.title }}</p>
+          <div class="image-wrap">
+            <img :src="i.src" alt="" :height="windowHeight-160 + 'px'">
+            <p class="pills animated tada">{{ i.title }}</p>
           </div>
         </slider-item>
       </slider>
@@ -44,11 +44,11 @@ export default {
   mounted () {
     setTimeout(() => {
       this.list = [
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-1.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-2.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-3.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-4.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-5.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
       ]
     }, 1000)
     this.$nextTick(() => {
@@ -93,5 +93,62 @@ export default {
   box-shadow: 2px 2px 5px #020202;
 }
 
+
+.image-wrap {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.image-wrap img {
+  width: 100%;
+  animation: move 10s ease;
+  /* Add infinite to loop. */
+
+  -ms-animation: move 10s ease;
+  -webkit-animation: move 10s ease;
+  -0-animation: move 10s ease;
+  -moz-animation: move 10s ease;
+  position: absolute;
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+
+    -webkit-transform: scale(1.2);
+    /* Safari and Chrome */
+
+    -o-transform: scale(1.2);
+    /* Opera */
+
+    -moz-transform: scale(1.2);
+    /* Firefox */
+  }
+  100% {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    /* IE 9 */
+
+    -webkit-transform: scale(1);
+    /* Safari and Chrome */
+
+    -o-transform: scale(1);
+    /* Opera */
+
+    -moz-transform: scale(1);
+    /* Firefox */
+  }
+}
 
 </style>

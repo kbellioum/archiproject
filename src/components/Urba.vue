@@ -1,5 +1,5 @@
 <template>
-  <div class="home" :height="windowHeight-160 + 'px'">
+  <div class="home" height="100vh">
     <div class="text">
       <h1>Titre</h1>
       <p>
@@ -16,7 +16,9 @@
     <div class="image3">
       <img src="../assets/images/urbanisme/image03.png" alt="">
     </div> -->
-    <div class="accordion images" :height="windowHeight-160 + 'px'">
+
+    <!-- :height="windowHeight-160 + 'px'" -->
+    <div class="accordion images" height="100vh">
   <ul>
     <li>
       <div> <a href="#">
