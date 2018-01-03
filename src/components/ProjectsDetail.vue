@@ -4,19 +4,19 @@
     <!-- <h1>Menu Projets</h1>
     <hr>
     <router-view/> -->
-
+<!--
     <div class="" v-for="project in projects" :key="project.id">
       <span>{{elements}}</span>
     </div>
 
     <button type="button" name="button" @click="doit">OK</button>
-    <button type="button" name="button" @click="reset">reset</button>
+    <button type="button" name="button" @click="reset">reset</button> -->
 
-    <!-- <div id="gallery" style="display:none;">
-      <a v-for="item in list" :href="item.link">
-        <img  alt="Image 1 Title" :src=item.source>
+    <div id="gallery" style="display:none;">
+      <a v-for="item in projects" :href="item.link">
+        <img  :alt="item.title" :src=item.source>
       </a>
-		</div> -->
+		</div>
     <!-- <button type="button" name="button" @click="doit">OK</button> -->
   </div>
 </template>

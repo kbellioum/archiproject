@@ -6,8 +6,8 @@
     <router-view/> -->
 
     <div id="gallery" style="display:none;">
-      <a v-for="item in list" :href="item.link">
-        <img  alt="Image 1 Title" :src=item.source>
+      <a v-for="item in projects" :href="item.link">
+        <img  :alt="item.title" :src=item.source>
       </a>
 		</div>
     <!-- <button type="button" name="button" @click="doit">OK</button> -->
@@ -41,6 +41,11 @@ export default {
   methods: {
     doit () {
       console.log('OK OK')
+    }
+  },
+  computed: {
+    projects () {
+      return this.$store.getters.getProjectByCategory('Hospi')
     }
   }
 }

@@ -133,7 +133,7 @@ export const store = new Vuex.Store({
     },
     getProjectByCategory (state) {
       return (category) => {
-        return state.projects.find((project) => {
+        return state.projects.filter((project) => {
           return project.category === category
         })
       }

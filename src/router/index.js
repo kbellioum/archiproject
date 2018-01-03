@@ -146,7 +146,7 @@ export default new Router({
           props: true
         },
         {
-          path: 'details/:id',
+          path: 'mi/:id',
           name: 'projectsdetail',
           component: ProjectsDetail,
           props: true

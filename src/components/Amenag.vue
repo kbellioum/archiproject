@@ -4,14 +4,19 @@
     <!-- <h1>Menu Projets</h1>
     <hr>
     <router-view/> -->
-
     <div id="gallery" style="display:none;">
+      <a v-for="item in projects" :href="item.link">
+        <img  :alt="item.title" :src=item.source>
+      </a>
+		</div>
 
-			<img v-for="item in list" alt="Image 1 Title" :src=item.source
+    <!-- <div id="gallery" style="display:none;">
+
+			<img v-for="item in projects" :alt="item.title" :src=item.source
 				data-image=""
 				data-description="Image 1 Description" @click="doit">
 
-		</div>
+		</div> -->
     <!-- <button type="button" name="button" @click="doit">OK</button> -->
   </div>
 </template>
@@ -37,6 +42,11 @@ export default {
   methods: {
     doit () {
       console.log('OK OK')
+    }
+  },
+  computed: {
+    projects () {
+      return this.$store.getters.getProjectByCategory('Amenag')
     }
   }
 }
