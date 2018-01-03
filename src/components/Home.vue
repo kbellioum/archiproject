@@ -122,6 +122,7 @@ export default {
     -ms-transform-origin: center;
     -o-transform-origin: center;
     transform-origin: center;
+    
     transform: scale(1.2);
     -ms-transform: scale(1.2);
     /* IE 9 */
