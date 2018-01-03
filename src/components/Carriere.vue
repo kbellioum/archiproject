@@ -53,8 +53,7 @@
           <textarea id="comment" name="comment" class="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc" placeholder="Laisser une description de votre profile"></textarea>
           <!-- <small id="comment-desc" class="f6 black-60">Helper text for a form control. Can use this text to <a href="#" class="link underline black-80 hover-blue">link to more info.</a></small> -->
         </div>
-        <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">Envoyer</a>
-        <br>
+
         <div v-if="!image" class="upload-btn-wrapper">
           <h2></h2>
           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">Deposer votre CV</a>
@@ -62,6 +61,8 @@
         </div>
         <div v-else>
           <!-- <img :src="image" /> -->
+          <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">Envoyer</a>
+          <br>
           <p>OK file uploaded</p>
           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" @click="removeImage">Supprimer le CV</a>
         </div>
@@ -468,6 +469,6 @@ export default {
 }
 
 /*
-** fin Upload file style 
+** fin Upload file style
 */
 </style>

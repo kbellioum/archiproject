@@ -90,7 +90,7 @@
               <span class="newsalign">News</span>
             </div>
             <div class="newsinfo">
-              <span class="infoalign">Info</span>
+              <marquee class="infoalign" behavior="scroll" direction="right" width="400px">{{ infos }}</marquee>
             </div>
             <div class="youtube">
               <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
@@ -126,6 +126,11 @@
 <script>
 export default {
   name: 'app',
+  data () {
+    return {
+      infos: 'Test Information'
+    }
+  },
   methods: {
     // toAgence () {
     //   this.$router.push('/agence')
@@ -150,6 +155,10 @@ export default {
   text-align: left;
 }
 
+.newsinfo {
+  /* border: 2px solid white; */
+  overflow: hidden;
+}
 
 .blackpart div a:link {
     text-decoration: none;

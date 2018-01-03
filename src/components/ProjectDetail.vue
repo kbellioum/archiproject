@@ -6,7 +6,7 @@
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
           <div :style="i">
             <!-- <img :src="i.src" alt="" style="height: 100%; width: 100%;"> -->
-            <p class="pills">{{ id }}</p>
+            <!-- <p class="pills">{{ id }}</p> -->
           </div>
         </slider-item>
       </slider>
@@ -28,7 +28,7 @@
       </p>
     </div> -->
     <div href="#" id='a' class="detonator animated slideInLeft" >
-       <div id="textinfo" class="animated infinite flash">Plus d'info</div>
+       <div id="textinfo" class="">{{id}}</div>
 
        <div id='b' class="cible">
          <h1>Titre</h1>
@@ -177,14 +177,16 @@ body {
 
 .detonator {
   position: fixed;
-  top: 100px;
-  left: 50px;
-  width: 200px;
+  top: 650px;
+  left: 75%;
+  right: 15%;
+  width: 300px;
+  bottum: 10px;
   height: 20px;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid gray;
-  -webkit-transition: width 2s, height 2s;
-  transition: width 2s, height 2s;
+  -webkit-transition:  height 2s, top 2s;
+  transition:  height 2s, top 2s;
   transition-timing-function: ease-in;
   overflow: hidden;
   z-index: 999999999;
@@ -211,8 +213,9 @@ body {
 }
 
 .detonator:hover {
-  height: 200px;
-  width: 300px;
+  height: 270px;
+  top: 390px;
+  /* width: 300px; */
 }
 
 #a:hover > #b {
