@@ -20,12 +20,7 @@ export default {
   data () {
     return {
       msg: '',
-      list: [
-        {id: '1', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514542955/Adrchiproject/morocco-mall_02.jpg', link: '/projets/detail/Morocco_Mall', title: 'Morocco_Mall', category: 'CentreCom'},
-        {id: '9', source: '../static/assets/projects/CentreCom/KiteaGeant/img00.jpg', link: '/projets/detail/KiteaGeant', title: 'Kitea Geant', category: 'CentreCom'},
-        {id: '10', source: '../static/assets/projects/CentreCom/MarjaneMarina/img00.jpg', link: '/projets/detail/MarjaneMarina', title: 'Marjane Marina', category: 'CentreCom'},
-        {id: '11', source: '../static/assets/projects/CentreCom/MarjaneTachfine/img00.jpg', link: '/projets/detail/MarjaneTachfine', title: 'Marjane Tachfine', category: 'CentreCom'}
-      ]
+      list: []
     }
   },
   methods: {

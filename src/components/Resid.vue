@@ -20,11 +20,7 @@ export default {
   data () {
     return {
       msg: '',
-      list: [
-        {id: '58', source: '../static/assets/projects/Resid/BouskouraGolfcity/img00.jpg', link: '/projets/detail/BouskouraGolfcity', title: 'BouskouraGolfcity', category: 'Resid'},
-        {id: '58', source: '../static/assets/projects/Resid/CaliforniaGolfRessort/img00.jpg', link: '/projets/detail/CaliforniaGolfRessort', title: 'CaliforniaGolfRessort', category: 'Resid'}
-
-      ]
+      list: []
     }
   },
   methods: {

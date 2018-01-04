@@ -20,11 +20,7 @@ export default {
   data () {
     return {
       msg: '',
-      list: [
-        {id: '76', source: '../static/assets/projects/Urbapro/Bouskouragolfcity/img00.jpg', link: '/projets/detail/Bouskouragolfcity', title: 'Bouskouragolfcity', category: 'Urbapro'},
-        {id: '77', source: '../static/assets/projects/Urbapro/LesJardinsdelOcean/img00.jpg', link: '/projets/detail/LesJardinsdelOcean', title: 'LesJardinsdelOcean', category: 'Urbapro'},
-        {id: '78', source: '../static/assets/projects/Urbapro/VictoriaCity/img00.jpg', link: '/projets/detail/VictoriaCity', title: 'VictoriaCity', category: 'Urbapro'}
-      ]
+      list: []
     }
   },
   methods: {

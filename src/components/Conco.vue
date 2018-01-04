@@ -20,13 +20,7 @@ export default {
   data () {
     return {
       msg: '',
-      list: [
-        {id: '12', source: '../static/assets/projects/Conco/Calairis/img00.jpg', link: '/projets/detail/Calairis', title: 'Calairis', category: 'Conco'},
-        {id: '13', source: '../static/assets/projects/Conco/DarAlMakhzene/img00.jpg', link: '/projets/detail/DarAlMakhzene', title: 'DarAlMakhzene', category: 'Conco'},
-        {id: '14', source: '../static/assets/projects/Conco/GrandstadedeCasablanca/img00.jpg', link: '/projets/detail/GrandstadedeCasablanca', title: 'GrandstadedeCasablanca', category: 'Conco'},
-        {id: '15', source: '../static/assets/projects/Conco/Siegedelaregiondedakhla/img00.jpg', link: '/projets/detail/Siegedelaregiondedakhla', title: 'Siegedelaregiondedakhla', category: 'Conco'}
-
-      ]
+      list: []
     }
   },
   methods: {
