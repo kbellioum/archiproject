@@ -6,7 +6,7 @@
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
           <div class="image-wrap">
             <img :src="i.src" alt="" :height="windowHeight-160 + 'px'">
-            <p class="pills animated tada">{{ i.title }}</p>
+            <p class="pills">{{ i.title }}</p>
           </div>
         </slider-item>
       </slider>
@@ -122,7 +122,7 @@ export default {
     -ms-transform-origin: center;
     -o-transform-origin: center;
     transform-origin: center;
-    
+
     transform: scale(1.2);
     -ms-transform: scale(1.2);
     /* IE 9 */
