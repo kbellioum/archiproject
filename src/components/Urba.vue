@@ -227,13 +227,13 @@ export default {
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background: url("https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_250,w_650/v1513766083/Victoria_city_xtinla.jpg") no-repeat center center; background-size: cover;}
+.accordion ul li:nth-child(1) { background: url("https://res.cloudinary.com/kbellioum/image/upload/v1515081794/Adrchiproject/VICTORIACITY.jpg") no-repeat center center; background-size: cover;}
 
-.accordion ul li:nth-child(2) { background: url("https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_250,w_650/v1513766081/garan12_yhwiof.jpg") no-repeat center center; background-size: cover; }
+.accordion ul li:nth-child(2) { background: url("https://res.cloudinary.com/kbellioum/image/upload/v1515081794/Adrchiproject/LESPINSDEBOUSKOURA.jpg") no-repeat center center; background-size: cover; }
 
-.accordion ul li:nth-child(3) { background: url("https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_250,w_650/v1513766074/Perspective_d_ensemble_jdo_copie_jyfy4n.jpg") no-repeat center center; background-size: cover; }
+.accordion ul li:nth-child(3) { background: url("https://res.cloudinary.com/kbellioum/image/upload/v1515081794/Adrchiproject/CLIFORNIAGOLFRESORT.jpg") no-repeat center center; background-size: cover; }
 
-.accordion ul li:nth-child(4) { background: url("https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_250,w_650/v1513766060/plan_bgc_fu8rkw.jpg") no-repeat center center; background-size: cover; }
+.accordion ul li:nth-child(4) { background: url("https://res.cloudinary.com/kbellioum/image/upload/v1515081795/Adrchiproject/BOUSKOURAGOLFCITY.jpg") no-repeat center center; background-size: cover; }
 
 /* .accordion ul li:nth-child(5) { background-image: url("https://unsplash.it/650/250?image=657"); }
 
