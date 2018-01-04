@@ -178,7 +178,7 @@ export default {
   display: block;
   overflow: hidden;
   width: 100%;
-  height: 640px;
+  height: 100vh;
   /* height: 100%; */
 }
 
@@ -219,11 +219,11 @@ export default {
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  top: 540px;
+  top: 570px;
 }
 
 .accordion ul li div a p {
-  top: 540px;
+  top: 570px;
   font-size: 13.5px;
 }
 
@@ -243,7 +243,7 @@ export default {
 
 .accordion ul:hover li:hover { width: 44%; }
 
-.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.0); }
 
 .accordion ul:hover li:hover a * {
   opacity: 1;
@@ -255,13 +255,13 @@ export default {
     display: block;
     overflow: hidden;
     width: 100%;
-    height: 630px;
+    height: 100vh;
     /* height: 100%; */
   }
 
   .accordion ul li div a {
     display: block;
-    height: 630px;
+    height: 100vh;
     /* height: 100%; */
     width: 100%;
     position: relative;
