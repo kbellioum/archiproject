@@ -80,17 +80,17 @@ export default {
   color: #f2f2f2;
   bottom: 0;
   left: 0;
-  background-color: gray;
-  opacity: 0.75;
+  /* background-color: gray; */
+  /* opacity: 0.75; */
   font-size: 2rem;
   text-align: left;
-  border-radius: 0  5px 5px 0;
+  /* border-radius: 0  5px 5px 0; */
   margin-left: 65px;
   margin-bottom: 45px;
   padding: 5px;
-  border-left: 10px solid #ffe400;
-  border-style:ridge;
-  box-shadow: 2px 2px 5px #020202;
+  /* border-left: 10px solid #ffe400; */
+  /* border-style:ridge; */
+  /* box-shadow: 2px 2px 5px #020202; */
 }
 
 
