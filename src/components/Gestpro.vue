@@ -16,8 +16,12 @@
         </div>
     <!-- </div> -->
     <div class="photo">
-      <img src="http://via.placeholder.com/1024x500?text=Organigrame" alt="">
+      <img src="https://res.cloudinary.com/kbellioum/image/upload/v1515080933/Adrchiproject/organigramme.jpg" alt="">
     </div>
+    <div class="foot">
+      <!-- Some space for the scrolling -->
+    </div>
+
 
   </div>
 </template>
@@ -75,7 +79,7 @@ export default {
 
 .photo img {
   width: 100%;
-  height: 400px;
+  height: 100vh;
   /* margin: 10px; */
   box-shadow: 2px 2px 7px #020202;
   /* display: flex;
@@ -100,6 +104,10 @@ export default {
 
 .col-2-pres h3 {
   font-weight: 400;
+}
+
+.foot {
+  height: 100px;
 }
 
 </style>
