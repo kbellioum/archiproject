@@ -184,7 +184,7 @@ export default {
 
 .accordion ul li div a {
   display: block;
-  height: 640px;
+  height: 100vh;
   /* height: 100%; */
   width: 100%;
   position: relative;
