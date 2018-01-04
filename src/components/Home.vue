@@ -117,37 +117,37 @@ export default {
 
 @-webkit-keyframes move {
   0% {
-    -webkit-transform-origin: center;
-    -moz-transform-origin: center;
-    -ms-transform-origin: center;
-    -o-transform-origin: center;
-    transform-origin: center;
+    -webkit-transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    -o-transform-origin: bottom;
+    transform-origin: bottom;
 
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
+    transform: scale(1.25);
+    -ms-transform: scale(1.25);
     /* IE 9 */
 
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.25);
     /* Safari and Chrome */
 
-    -o-transform: scale(1.2);
+    -o-transform: scale(1.25);
     /* Opera */
 
-    -moz-transform: scale(1.2);
+    -moz-transform: scale(1.25);
     /* Firefox */
   }
   100% {
-    transform: scale(1);
-    -ms-transform: scale(1);
+    transform: scale(0.85);
+    -ms-transform: scale(0.85);
     /* IE 9 */
 
-    -webkit-transform: scale(1);
+    -webkit-transform: scale(0.85);
     /* Safari and Chrome */
 
-    -o-transform: scale(1);
+    -o-transform: scale(0.85);
     /* Opera */
 
-    -moz-transform: scale(1);
+    -moz-transform: scale(0.85);
     /* Firefox */
   }
 }
