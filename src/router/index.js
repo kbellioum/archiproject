@@ -13,16 +13,16 @@ import Projets from '@/components/Projets'
 import ProjectDetail from '@/components/ProjectDetail'
 import ProjectsDetail from '@/components/ProjectsDetail'
 import HomeProjet from '@/components/HomeProjet'
-import Institu from '@/components/Institu'
-import CentreCom from '@/components/CentreCom'
-import Hospi from '@/components/Hospi'
-import Educ from '@/components/Educ'
-import Restau from '@/components/Restau'
-import Touri from '@/components/Touri'
-import Resid from '@/components/Resid'
-import Urbapro from '@/components/Urbapro'
-import Amenag from '@/components/Amenag'
-import Conco from '@/components/Conco'
+// import Institu from '@/components/Institu'
+// import CentreCom from '@/components/CentreCom'
+// import Hospi from '@/components/Hospi'
+// import Educ from '@/components/Educ'
+// import Restau from '@/components/Restau'
+// import Touri from '@/components/Touri'
+// import Resid from '@/components/Resid'
+// import Urbapro from '@/components/Urbapro'
+// import Amenag from '@/components/Amenag'
+// import Conco from '@/components/Conco'
 import Publication from '@/components/Publication'
 import Carriere from '@/components/Carriere'
 import Contact from '@/components/Contact'
@@ -38,6 +38,12 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/proj/:id',
+      name: 'projid',
+      component: ProjectsDetail,
+      props: true
     },
     {
       path: '/agence',
@@ -89,56 +95,56 @@ export default new Router({
           name: 'Projets',
           component: HomeProjet
         },
-        {
-          path: 'institu',
-          name: 'Institu',
-          component: Institu
-        },
-        {
-          path: 'centrecom',
-          name: 'CentreCom',
-          component: CentreCom
-        },
-        {
-          path: 'hospi',
-          name: 'Hospi',
-          component: Hospi
-        },
-        {
-          path: 'educ',
-          name: 'Educ',
-          component: Educ
-        },
-        {
-          path: 'restau',
-          name: 'Restau',
-          component: Restau
-        },
-        {
-          path: 'touri',
-          name: 'Touri',
-          component: Touri
-        },
-        {
-          path: 'resid',
-          name: 'Resid',
-          component: Resid
-        },
-        {
-          path: 'urbapro',
-          name: 'Urbapro',
-          component: Urbapro
-        },
-        {
-          path: 'amenag',
-          name: 'Amenag',
-          component: Amenag
-        },
-        {
-          path: 'conco',
-          name: 'Conco',
-          component: Conco
-        },
+        // {
+        //   path: 'institu',
+        //   name: 'Institu',
+        //   component: Institu
+        // },
+        // {
+        //   path: 'centrecom',
+        //   name: 'CentreCom',
+        //   component: CentreCom
+        // },
+        // {
+        //   path: 'hospi',
+        //   name: 'Hospi',
+        //   component: Hospi
+        // },
+        // {
+        //   path: 'educ',
+        //   name: 'Educ',
+        //   component: Educ
+        // },
+        // {
+        //   path: 'restau',
+        //   name: 'Restau',
+        //   component: Restau
+        // },
+        // {
+        //   path: 'touri',
+        //   name: 'Touri',
+        //   component: Touri
+        // },
+        // {
+        //   path: 'resid',
+        //   name: 'Resid',
+        //   component: Resid
+        // },
+        // {
+        //   path: 'urbapro',
+        //   name: 'Urbapro',
+        //   component: Urbapro
+        // },
+        // {
+        //   path: 'amenag',
+        //   name: 'Amenag',
+        //   component: Amenag
+        // },
+        // {
+        //   path: 'conco',
+        //   name: 'Conco',
+        //   component: Conco
+        // },
         {
           path: 'detail/:id',
           name: 'projectdetail',
@@ -146,7 +152,7 @@ export default new Router({
           props: true
         },
         {
-          path: 'mi/:id',
+          path: 'filter/:id',
           name: 'projectsdetail',
           component: ProjectsDetail,
           props: true

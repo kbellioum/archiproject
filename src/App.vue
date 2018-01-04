@@ -34,34 +34,34 @@
           <a class="link" href="/projets">PROJETS</a>
           <div class="megamenu">
                 <div class="col-1">
-                  <a class="bigmenulink" href="/projets/institu">INSTITUTIONNEL</a>
+                  <a class="bigmenulink" href="/proj/Institu">INSTITUTIONNEL</a>
                 </div>
                 <div class="col-2">
-                  <a class="bigmenulink" href="/projets/centrecom">CENTRE COMMERCIAUX</a>
+                  <a class="bigmenulink" href="/proj/CentreCom">CENTRE COMMERCIAUX</a>
                 </div>
                 <div class="col-3">
-                  <a class="bigmenulink" href="/projets/hospi">HOSPITALIER</a>
+                  <a class="bigmenulink" href="/proj/Hospi">HOSPITALIER</a>
                 </div>
                 <div class="col-4">
-                  <a class="bigmenulink" href="/projets/educ">EDUCATION</a>
+                  <a class="bigmenulink" href="/proj/Educ">EDUCATION</a>
                 </div>
                 <div class="col-5">
-                  <a class="bigmenulink" href="/projets/restau">RESTAURATION</a>
+                  <a class="bigmenulink" href="/proj/Restau">RESTAURATION</a>
                 </div>
                 <div class="col-6">
-                  <a class="bigmenulink" href="/projets/touri">TOURISME ET LOISIRS</a>
+                  <a class="bigmenulink" href="/proj/Touri">TOURISME ET LOISIRS</a>
                 </div>
                 <div class="col-2-r2">
-                  <a class="bigmenulink" href="/projets/resid">RESIDENTIEL</a>
+                  <a class="bigmenulink" href="/proj/Resid">RESIDENTIEL</a>
                 </div>
                 <div class="col-3-r2">
-                  <a class="bigmenulink" href="/projets/urbapro">URBANISME</a>
+                  <a class="bigmenulink" href="/proj/Urbapro">URBANISME</a>
                 </div>
                 <div class="col-4-r2">
-                  <a class="bigmenulink" href="/projets/amenag">AMENAGEMENT</a>
+                  <a class="bigmenulink" href="/proj/Amenag">AMENAGEMENT</a>
                 </div>
                 <div class="col-5-r2">
-                  <a class="bigmenulink" href="/projets/conco">CONCOURS</a>
+                  <a class="bigmenulink" href="/proj/Conco">CONCOURS</a>
                 </div>
           </div>
         </div>

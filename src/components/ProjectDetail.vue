@@ -4,8 +4,8 @@
       <slider animation="fade" :height="windowHeight-160 + 'px'">
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
-          <div :style="i">
-            <!-- <img :src="i.src" alt="" style="height: 100%; width: 100%;"> -->
+          <div>
+            <img :src="i.src" alt="" style="height: 100%; width: 100%;">
             <!-- <p class="pills">{{ id }}</p> -->
           </div>
         </slider-item>
@@ -71,18 +71,18 @@ export default {
     }
   },
   computed: {
-    getprojet () {
-      return this.projet
+    projects () {
+      return this.$store.getters.getProjectDetail(this.id)
     }
   },
   mounted () {
     setTimeout(() => {
       this.list = [
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
-        { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-1.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Siège HDID' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-2.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Morocco Mall' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-3.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet CIH' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-4.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Bouskoura Golf City' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-5.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
       ]
     }, 1000)
     this.$nextTick(() => {
