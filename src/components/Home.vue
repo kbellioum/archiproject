@@ -5,7 +5,7 @@
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
           <div class="image-wrap">
-            <img :src="i.src" alt="" :height="windowHeight-160 + 'px'">
+            <img :src="i.src" alt="">
             <p class="pills">{{ i.title }}</p>
           </div>
         </slider-item>
