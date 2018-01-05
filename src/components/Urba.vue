@@ -1,9 +1,16 @@
 <template>
   <div class="home" height="100vh">
     <div class="text">
-      <h1>Titre</h1>
+      <h1>URBANISME</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Esquisses projeArchidesign intervient également dans la planification urbaine et la réalisation du plan d'aménagement de plusieurs ville nouvelle:
+        <br>
+        - Victoria city de Garan qui, à travers sa vocation de mixité urbaine l'agence a réussit à conceptualiser un plan d'aménagement ou toutes les catégories sociales pourront cohabiter ensemble. Plusieurs équipements ont été positionnés de façon à rendre cette ville attractive et éviter la contrainte de "ville fantôme" que connait actuellement toute ville nouvelle.
+        <br>
+        - Bouskoura Golf city avec le groupe Prestigia, située à quelques mètres de la forêt de Bouskoura et profitant dune verdure imprenable, Archidesign a su développer les atouts à travers la conception d'un plan d'aménagement adéquat faisant profiter toute les constructions de persés visuels sur le site naturel mitoyen. C'est en effet une ville composés de villa et résidence de haut standing et également d'un certain nombre d'équipements
+        <br>
+        - California Golf Ressort avec le groupe Palmeraie, également mitoyen à la forêt Bouskoura a été réfléchit de telle sorte à profiter du paysage naturel offert par le site. Proposant une offre  résidentielle de haut standing composé de villas et immeubles conceptualisés d'une façon moderne et raffiné.
+
       </p>
 
     </div>
