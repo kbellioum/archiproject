@@ -9,7 +9,7 @@
       <!-- <img src="http://via.placeholder.com/1024x500?text=Architecture" alt=""> -->
       <div class="slid">
         <div id="slider">
-          <slider animation="normal" :height="windowHeight-160 + 'px'" :control-btn="false" indicators="right">
+          <slider animation="normal" :height="windowHeight-135 + 'px'" :control-btn="false" indicators="right">
             <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
             <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
               <div :style="i">

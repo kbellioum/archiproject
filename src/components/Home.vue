@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="slider">
-      <slider animation="fade" :height="windowHeight-160 + 'px'">
+      <slider animation="fade" :height="windowHeight-135 + 'px'">
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
         <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
           <div class="image-wrap">

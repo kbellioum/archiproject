@@ -147,7 +147,7 @@ export default {
   width: 100%;
 }*/
 .newsalign {
-  margin-left: 24px;
+  margin-left: 10px;
 }
 .infoalign {
   margin-left: 10px;

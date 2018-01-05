@@ -236,14 +236,14 @@ footer {
 
 .blackblad {
     width: auto;
-    height: 25px;
+    height: 10px;
     background: black;
 
 }
 
 
 .news {
-    height: 50px;
+    height: 40px;
     background: gray;
     color: white;
     font-weight: 500;
@@ -255,7 +255,7 @@ footer {
   display: grid;
   grid-template-columns: 100px 1fr 40px 40px 40px 40px 40px 5px;
   grid-gap: 1px;
-  grid-auto-rows: minmax(50px, auto);
+  grid-auto-rows: minmax(40px, auto);
   justify-items: center;
   /*height: 100%;
   width: 100%;
@@ -271,6 +271,7 @@ footer {
   width: 100%;
   background: url('/static/assets/images/image2.png');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .newsinfo {
@@ -283,7 +284,7 @@ footer {
 
 .facebook {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   grid-column: 4;
   grid-row: 1;
   display: flex;
@@ -292,7 +293,7 @@ footer {
 
 .twitter {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   grid-column: 5;
   grid-row: 1;
   display: flex;
@@ -300,7 +301,7 @@ footer {
 }
 .youtube {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   grid-column: 3;
   grid-row: 1;
   display: flex;
@@ -309,7 +310,7 @@ footer {
 
 .linkedin {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   grid-column: 6;
   grid-row: 1;
   display: flex;
@@ -318,7 +319,7 @@ footer {
 
 .location {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   grid-column: 7;
   grid-row: 1;
   display: flex;
