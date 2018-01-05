@@ -47,7 +47,9 @@ export default {
         {id: '8', title: 'BrandUp', source: '../static/assets/publications/brandup.png', link: '../static/assets/publications/brandup.pdf'},
         {id: '9', title: 'Challenge', source: '../static/assets/publications/challenge.png', link: '../static/assets/publications/challenge.pdf'},
         {id: '10', title: 'L\'economiste', source: '../static/assets/publications/leconomiste.png', link: '../static/assets/publications/leconomiste.pdf'},
-        {id: '11', title: 'Presse', source: '../static/assets/publications/presse.png', link: '../static/assets/publications/presse.pdf'}
+        {id: '11', title: 'Presse', source: '../static/assets/publications/presse.png', link: '../static/assets/publications/presse.pdf'},
+        {id: '12', title: 'maroc_hebdo', source: '../static/assets/publications/maroc_hebdo.png', link: '../static/assets/publications/maroc_hebdo.pdf'},
+        {id: '13', title: 'economie', source: '../static/assets/publications/economie.png', link: '../static/assets/publications/economie.pdf'}
 
       ]
     }

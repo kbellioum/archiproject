@@ -40,7 +40,7 @@
     </li>
     <li>
       <div> <a href="#">
-        <h2>Victoria City</h2>
+        <h2>LES PINS DE BOUSKOURA</h2>
         <p>Lorem ipsum dolor sit amet</p>
         </a> </div>
     </li>

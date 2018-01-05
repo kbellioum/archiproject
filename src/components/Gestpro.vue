@@ -81,7 +81,7 @@ export default {
   width: 100%;
   height: 100vh;
   /* margin: 10px; */
-  box-shadow: 2px 2px 7px #020202;
+  /* box-shadow: 2px 2px 7px #020202; */
   /* display: flex;
   align-items: center; */
   /* width: 100%;
