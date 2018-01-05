@@ -8,18 +8,18 @@
     </div>
 
         <div class="image1">
-          <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1513811573/image03_itnqzg.jpg" caption="image1">
-            <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1513811573/image03_itnqzg.jpg" alt="">
+          <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145261/Adrchiproject/interieur-3.jpg" caption="image1">
+            <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1515145261/Adrchiproject/interieur-3.jpg" alt="">
           </lightbox>
         </div>
         <div class="image2">
-          <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1513811554/image02_c3hh3z.jpg" caption="image2">
-            <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1513811554/image02_c3hh3z.jpg" alt="">
+          <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145126/Adrchiproject/interieur-2.jpg" caption="image2">
+            <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1515145126/Adrchiproject/interieur-2.jpg" alt="">
           </lightbox>
         </div>
         <div class="image3">
-          <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1513811577/image01_bx3chv.jpg" caption="image3">
-            <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1513811577/image01_bx3chv.jpg" alt="">
+          <lightbox src="http://res.cloudinary.com/kbellioum/image/upload/v1515145104/Adrchiproject/interieur-1.jpg" caption="image3">
+            <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_400,w_400/v1515145104/Adrchiproject/interieur-1.jpg" alt="">
           </lightbox>
         </div>
 
