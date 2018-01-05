@@ -169,7 +169,7 @@ export default {
 .quality div {
   width: 90px; height: 90px;
   margin: 3em auto;
-  background: #fff;
+  /* background: #fff; */
   border: 10px solid #ffe400;
   border-radius: 30px;
   transition: border-radius 2s, border-color 3s;
@@ -178,7 +178,7 @@ export default {
 .cost div {
   width: 90px; height: 90px;
   margin: 3em auto;
-  background: #fff;
+  /* background: #fff; */
   border: 10px solid #ffe400;
   border-radius: 30px;
   transition: border-radius 2s, border-color 3s;
@@ -189,7 +189,7 @@ export default {
 .anim div {
   width: 90px; height: 90px;
   margin: 3em auto;
-  background: #fff;
+  /* background: #fff; */
   border: 10px solid #ffe400;
   border-radius: 30px;
   transition: border-radius 2s, border-color 3s;
