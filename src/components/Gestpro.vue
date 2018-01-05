@@ -9,7 +9,7 @@
 
         <div class="col-1-pres">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Afin de mener à bien la mission de gestion de tout projet, archidesign en collaboration avec le client et ses partenaires (Bureau d'études, Métreur, Laboratoire, Bureau de contrôle...), participe aux développement et à l'évolution du projet (Esquisse, APS, Permis, APD, EXE et DCE) tout en respectant la démarche professionnelle imposée par notre agence.
             </p>
 
 
