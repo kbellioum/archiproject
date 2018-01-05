@@ -28,28 +28,28 @@
     <div class="row2">
       <div class="one" data-aos="slide-up">
         <div class="center">
-          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-1.png">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/co_rgb:ffffff,e_make_transparent:50/v1514806622/Adrchiproject/icon-1.png">
         </div>
 
         <h3>ARCHITECTURE &amp; URBANISME</h3>
       </div>
       <div class="two" data-aos="slide-up">
         <div class="center">
-          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806622/Adrchiproject/icon-2.png">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/co_rgb:ffffff,e_make_transparent:50/v1514806622/Adrchiproject/icon-2.png">
         </div>
 
         <h3>DECORATION &amp; DESIGN</h3>
       </div>
       <div class="tree" data-aos="slide-up">
         <div class="center">
-          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-3.png">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/co_rgb:ffffff,e_make_transparent:50/v1514806623/Adrchiproject/icon-3.png">
         </div>
 
         <h3>GESTION DE PROJETS</h3>
       </div>
       <div class="four" data-aos="slide-up">
         <div class="center">
-          <img src="https://res.cloudinary.com/kbellioum/image/upload/v1514806623/Adrchiproject/icon-4.png">
+          <img src="https://res.cloudinary.com/kbellioum/image/upload/co_rgb:ffffff,e_make_transparent:50/v1514806623/Adrchiproject/icon-4.png">
         </div>
 
         <h3>SUIVI &amp; COORDINATION</h3>
@@ -109,13 +109,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+body{
+  background: url('https://res.cloudinary.com/kbellioum/image/upload/v1515180409/Adrchiproject/6452-1.jpg') no-repeat;
+}
 
 .page-agence {
   display: grid;
   grid-template-columns: 500px 1fr;
   grid-gap: 1px;
   grid-auto-rows: minmax(auto, auto);
+
 }
 
 .photo {

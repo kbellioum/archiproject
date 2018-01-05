@@ -5,10 +5,12 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    /* background: #ffffff; */
     /* overflow: hidden; */
     /*overflow:scroll;
     overflow-x:hidden;*/
+    background: url('https://res.cloudinary.com/kbellioum/image/upload/v1515180409/Adrchiproject/6452-1.jpg') no-repeat;
+    background-size: cover;
 }
 
 .wrapper {
@@ -202,7 +204,7 @@ nav.main {
     top: 85px;
     /* z-index: -100; */
     /* padding: 3px; */
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 .bigmenulink {
