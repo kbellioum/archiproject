@@ -137,6 +137,13 @@ export default {
   text-align: justify;
 }
 
+.lightboxOverlay {
+  z-index: 9999999 !important;
+}
+
+.lightbox {
+  z-index: 99999999 !important;
+}
 /*
 ** Diagonal Slice Images
 */

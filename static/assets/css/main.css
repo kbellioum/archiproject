@@ -328,6 +328,13 @@ footer {
   align-items: center;
 }
 
+.lightboxOverlay {
+  z-index: 9999999 !important;
+}
+
+.lightbox {
+  z-index: 99999999 !important;
+}
 
 #gallery {
   z-index: 100000;

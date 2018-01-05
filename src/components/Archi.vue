@@ -87,6 +87,9 @@ export default {
   grid-colum: 1;
 
 }
+.slid div {
+  background-color: white;
+}
 
 .text p {
   padding: 10px;
