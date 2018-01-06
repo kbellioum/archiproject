@@ -71,7 +71,7 @@
         <img src="https://res.cloudinary.com/kbellioum/image/upload/v1513601388/said_wiv5oq.jpg" alt="">
       </div>
       <div class="text" data-aos="fade-left">
-        <div class="">
+        <div class="said">
           Said Lahlou débute sa carrière professionnelle en 1984 en obtenant son diplôme d'Architecte de l'Université
           du Québec, puis deux autres diplômes en 1986 et 1987 de la Faculté de l'Urbanisme de Montréal et de la
           "Royal Architectural Institue of Canada".<br>
@@ -225,7 +225,7 @@ body{
   margin: 5px;
   padding: 19px;
   font-size: 23px;
-  font-weight: 200;
+  font-weight: 100;
   text-align: justify;
 }
 
@@ -234,10 +234,11 @@ body{
 }
 
 .said {
-  text-align: center;
-  font-weight: 300;
-  font-size: 45px;
-  margin: 30px;
+
+  text-align: justify;
+  font-weight: 100;
+  /* font-size: 45px;
+  margin: 30px; */
 }
 
 .said h2::first-letter {

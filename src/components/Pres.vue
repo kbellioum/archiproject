@@ -317,8 +317,9 @@ export default {
   margin: 0; */
 }
 
-.text p {
+p {
   padding: 10px;
+  font-weight: 100;
   text-align: justify;
 }
 
@@ -348,6 +349,7 @@ h3::first-letter {
 }
 li {
   color: gray;
+  font-weight: 100;
 }
 
 li::before {
