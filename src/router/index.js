@@ -29,6 +29,7 @@ import Contact from '@/components/Contact'
 import Nouveau from '@/components/Nouveau'
 import NouveauDetail from '@/components/NouveauDetail'
 import HomeNouveau from '@/components/HomeNouveau'
+import Login from '@/components/Login'
 
 Vue.use(Router)
 
@@ -173,6 +174,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     },
     {
       path: '/nouveau',

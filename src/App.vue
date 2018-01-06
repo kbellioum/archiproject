@@ -4,6 +4,13 @@
       <a class="navbar-brand" href="/">
         <img src="/static/assets/images/logo_archidesign.png" width="45" height="45" alt="">
       </a>
+      <div class="espace-client">
+        <div class="text"><span>Espace</span> client</div>
+        <a href="/login">
+          <img src="/static/assets/images/user-1.png" width="45" height="45" alt="">
+        </a>
+      </div>
+
       <div class="deco"></div>
       <nav class="main">
         <div class="col-1">
@@ -178,5 +185,30 @@ export default {
 .blackpart div a:active {
     text-decoration: none;
     color: black;
+}
+
+.espace-client {
+  float: right;
+}
+
+.espace-client span {
+  text-transform: uppercase;
+  color: white;
+  font-style: italic;
+  padding-top: -100px;
+}
+
+.text {
+  position: relative;
+  float: left;
+  text-transform: uppercase;
+  color: white;
+  font-style: italic;
+  padding-top: 16px;
+  padding-right: 10px;
+}
+
+.text span {
+  font-weight: 100;
 }
 </style>
