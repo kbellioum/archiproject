@@ -21,19 +21,25 @@
     <link rel="stylesheet" href="/static/assets/css/main.css">
   </head>
   <body>
-    <div id="preload">
+
+    <!-- <div id="preload">
       <div class="preload">
           <div class="spinner"></div>
       </div>
-    </div>
+    </div> -->
+
     <div id="app" class="wrapper"></div>
     <!-- built files will be auto injected -->
 
     <script type="text/javascript">
-    $(window).load(function(){
+    $(document).ready(function(){
 
         //PRELOADER
-        $('#preload').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        setTimeout(function() {
+            $('#preload').delay(500).fadeOut('slow');
+            // $('body').addClass('loaded');
+        }, 3500);
+
 
       });
     </script>
