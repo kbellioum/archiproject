@@ -150,13 +150,13 @@ export default new Router({
           name: 'projectdetail',
           component: ProjectDetail,
           props: true
-        },
-        {
-          path: 'filter/:id',
-          name: 'projectsdetail',
-          component: ProjectsDetail,
-          props: true
         }
+        // {
+        //   path: 'filter/:id',
+        //   name: 'projectsdetail',
+        //   component: ProjectsDetail,
+        //   props: true
+        // }
       ]
     },
     {

@@ -3,14 +3,15 @@
     <div id="slider" class="slider">
       <slider animation="fade" :height="windowHeight-135 + 'px'">
         <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
-        <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
+        <slider-item v-for="(i, index) in projects[0].images" :key="index" :on-click="test">
           <div>
             <img :src="i.src" alt="" style="height: 100%; width: 100%;">
-            <!-- <p class="pills">{{ id }}</p> -->
           </div>
         </slider-item>
       </slider>
     </div>
+
+
     <!-- <div class="head1">
         <h2>Infos</h2>
     </div>

@@ -106,6 +106,29 @@ export const store = new Vuex.Store({
       {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article2'},
       {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article3'},
       {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article4'}
+    ],
+    detailProj: [
+      { name: 'CaliforniaGolfRessort',
+        images: [
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' }
+        ]
+      },
+      { name: 'BouskouraGolfcity',
+        images: [
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' }
+        ]
+      },
+      { name: 'projet3',
+        images: [
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' },
+        { src: 'https://placeimg.com/640/480/arch' }
+        ]
+      }
     ]
   },
   mutations: {
@@ -140,6 +163,13 @@ export const store = new Vuex.Store({
     },
     getNouveautes (state) {
       return state.articles
+    },
+    getProjectDetail (state) {
+      return (name) => {
+        return state.detailProj.filter((proj) => {
+          return proj.name === name
+        })
+      }
     }
   }
 })
