@@ -27,7 +27,7 @@
 
     <div class="diagonal1" id="d0">
       <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145104/Adrchiproject/interieur-1.jpg" caption="image1">
-        <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_450,w_650/v1515145104/Adrchiproject/interieur-1.jpg" alt="">
+        <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_550,w_750/v1515145104/Adrchiproject/interieur-1.jpg" alt="">
         <p class="overlay">
         TEST
         </p>
@@ -40,7 +40,7 @@
     <div class="diagonal2" id="d1">
       <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145261/Adrchiproject/interieur-3.jpg" caption="image3">
 
-      <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_570,w_770/v1515145261/Adrchiproject/interieur-3.jpg" alt="">
+      <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_590,w_790/v1515145261/Adrchiproject/interieur-3.jpg" alt="">
 
       <p class="overlay">
       TEST
@@ -51,7 +51,7 @@
     <div class="diagonal3" id="d2">
       <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145126/Adrchiproject/interieur-2.jpg" caption="image2">
 
-        <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_450,w_650/v1515145126/Adrchiproject/interieur-2.jpg" alt="">
+        <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_550,w_750/v1515145126/Adrchiproject/interieur-2.jpg" alt="">
 
         <p class="overlay">
         TEST
@@ -98,9 +98,10 @@ export default {
 
 .container {
   grid-area: im;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 2px 2px 5px gray;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  /* box-shadow: 2px 2px 5px gray; */
 }
 
 
@@ -149,16 +150,16 @@ export default {
 */
 
 .container {
-  width: 1400px;
-  height: 400px;
+  width: 100%;
+  height: 500px;
   background: white;
   overflow: hidden;
   position: relative;
-  // margin-left: 100px;
+  /* margin-left: 100px; */
 }
 .container .diagonal1 {
-  height: 558px;
-  width: 500px;
+  height: 858px;
+  width: 770px;
   overflow: hidden;
   -moz-transform: rotate(25deg);
   -ms-transform: rotate(25deg);
@@ -196,7 +197,7 @@ export default {
   -ms-transform: rotate(-25deg);
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
-  margin-top: 85px;
+  margin-top: 147px;
   margin-left: -29px;
 }
 .container .diagonal2 img {
@@ -204,8 +205,10 @@ export default {
   -ms-transform: rotate(-25deg);
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
-  margin-top: -25px;
-  margin-left: -161px;
+  /* margin-top: -25px;
+  margin-left: -161px; */
+  margin-top: 86px;
+  margin-left: -156px;
 }
 
 .container .diagonal3 img {
@@ -213,8 +216,10 @@ export default {
   -ms-transform: rotate(-25deg);
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
-  margin-top: 163px;
-  margin-left: -103px;
+  margin-top: 144px;
+  margin-left: -136px;
+  /* margin-top: 135px;
+  margin-left: -87px; */
 }
 .container .diagonal1 .overlay {
   -moz-transform: rotate(-25deg);
@@ -242,7 +247,7 @@ export default {
   width: 800px;
   position: absolute;
   top: -50px;
-  left: -1px;
+  left: -55px;
   background: black;
   opacity: 0;
   color: white;
@@ -260,7 +265,7 @@ export default {
   width: 800px;
   position: absolute;
   top: -50px;
-  left: -1px;
+  left: -61px;
   background: black;
   opacity: 0;
   color: white;
@@ -281,11 +286,15 @@ export default {
 
 
 .container .diagonal1#d0 {
-  left: -135px;
+  left: -100px;
 }
 
 .container .diagonal2#d1 {
-  left: 1px;
+  left: 79px;
+}
+
+.container .diagonal3#d2 {
+  left: 80px;
 }
 
 

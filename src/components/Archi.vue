@@ -15,7 +15,7 @@ static<template>
       <!-- <img src="http://via.placeholder.com/1024x500?text=Architecture" alt=""> -->
       <div class="slid">
         <div id="slider">
-          <slider animation="fade" height="600px" :control-btn="false">
+          <slider animation="fade" :height="windowHeight-135 + 'px'" :control-btn="false" indicators="right">
             <p style="line-height: 280px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
             <slider-item v-for="(i, index) in list" :key="index" :on-click="test">
               <div :style="i">
@@ -36,12 +36,20 @@ export default {
   data () {
     return {
       msg: '',
-      list: []
+      list: [],
+      windowWidth: 0,
+      windowHeight: 0
     }
   },
   methods: {
     test () {
       console.log(1)
+    },
+    getWindowWidth (event) {
+      this.windowWidth = document.documentElement.clientWidth
+    },
+    getWindowHeight (event) {
+      this.windowHeight = document.documentElement.clientHeight
     }
   },
   mounted () {
@@ -65,10 +73,21 @@ export default {
         // { backgroundColor: '#f44336', width: '100%', height: '100%', background: 'url(\'../static/assets/images/drafts/16.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Projet Zenith Parc' }
       ]
     }, 1000)
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.getWindowWidth)
+      window.addEventListener('resize', this.getWindowHeight)
+
+      this.getWindowWidth()
+      this.getWindowHeight()
+    })
   },
   components: {
     Slider,
     SliderItem
+  },
+  beforeDestroy () {
+    window.removeEventListener('resize', this.getWindowWidth)
+    window.removeEventListener('resize', this.getWindowHeight)
   }
 }
 </script>
@@ -85,6 +104,7 @@ export default {
 
 .text {
   grid-colum: 1;
+  background: white;
 
 }
 .slid div {
@@ -104,9 +124,11 @@ export default {
 }
 
 .slid {
-  grid-column: 2;
+  /* grid-column: 2;
   margin: 10px;
-  box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 5px gray; */
+  grid-column: 2;
+  width: 100%;
 }
 
 </style>
