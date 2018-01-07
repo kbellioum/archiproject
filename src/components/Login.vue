@@ -1,9 +1,10 @@
 <template>
-  <div class="">
+  <div class="black-bg">
     <div class="login-page">
       <div class="form">
-        <div class="">
-          <h1 class="text"><span>Espace</span> Client</h1>
+        <div class="user-logo">
+          <!-- <h1 class="text"><span>Espace</span> Client</h1> -->
+          <img src="/static/assets/images/user-1.png" width="70" height="70" alt="">
         </div>
         <br>
         <br>
@@ -40,6 +41,18 @@ export default {
 <style scoped>
 /* @import url(https://fonts.googleapis.com/css?family=Roboto:300); */
 
+.black-bg {
+  background: black;
+  height: 100vh;
+}
+
+.user-logo {
+  margin-top: -56px;
+  background: black;
+  margin-left: 96px;
+  margin-right: 95px;
+}
+
 .text {
   position: relative;
   float: left;
@@ -70,7 +83,9 @@ export default {
   margin: 0 auto 100px;
   padding: 20px 45px 45px;
   text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border: 2px solid white;
+  background-color:  black;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
 }
 .form input {
   /* font-family: "Roboto", sans-serif; */
@@ -117,6 +132,7 @@ export default {
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
+  background: black;
 }
 .container:before, .container:after {
   content: "";
