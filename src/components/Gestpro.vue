@@ -16,7 +16,7 @@
         </div>
     <!-- </div> -->
     <div class="photo">
-      <img src="https://res.cloudinary.com/kbellioum/image/upload/v1515080933/Adrchiproject/organigramme.jpg" alt="">
+      <img src="https://res.cloudinary.com/kbellioum/image/upload/v1515514583/Adrchiproject/organi.png" alt="">
     </div>
     <div class="foot">
       <!-- Some space for the scrolling -->
@@ -79,7 +79,7 @@ export default {
 
 .photo img {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* margin: 10px; */
   /* box-shadow: 2px 2px 7px #020202; */
   /* display: flex;
