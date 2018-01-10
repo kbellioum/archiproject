@@ -34,7 +34,7 @@
        <div id='b' class="cible">
          <h1>Titre</h1>
          <p>
-           <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odit perferendis quidem dolorem, iste consectetur dolore? Rem qui enim modi beatae, itaque neque natus nam minima nisi sit minus inventore?</div>
+           <div>{{projects[0].txt}}</div>
          </p>
        </div>
      </div>

@@ -125,6 +125,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'cih',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Amenag/cih/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/cih/details/image02.jpg' },
@@ -133,6 +134,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'cih6',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Amenag/cih6/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/cih6/details/image02.jpg' },
@@ -141,6 +143,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ShowroomNespresso',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Amenag/ShowroomNespresso/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/ShowroomNespresso/details/image02.jpg' },
@@ -150,6 +153,7 @@ export const store = new Vuex.Store({
       },
       // CentreCom
       { name: 'MoroccoMall',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/CentreCom/Moroccomall/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/Moroccomall/details/image02.jpg' },
@@ -158,6 +162,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'KiteaGeant',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/CentreCom/KiteaGeant/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/KiteaGeant/details/image02.jpg' },
@@ -166,6 +171,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'MarjaneMarina',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/CentreCom/MarjaneMarina/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/MarjaneMarina/details/image02.jpg' },
@@ -174,6 +180,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'MarjaneTachfine',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/CentreCom/MarjaneTachfine/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/MarjaneTachfine/details/image02.jpg' },
@@ -183,6 +190,7 @@ export const store = new Vuex.Store({
       },
       // Conco
       { name: 'Calairis',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Conco/Calairis/details/image01.jpg' },
         { src: '/static/assets/projects/Conco/Calairis/details/image02.jpg' },
@@ -191,6 +199,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'GrandstadedeCasablanca',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Conco/GrandstadedeCasablanca/details/image01.jpg' },
         { src: '/static/assets/projects/Conco/GrandstadedeCasablanca/details/image02.jpg' },
@@ -199,6 +208,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Siegedelaregiondedakhla',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Conco/Siegedelaregiondedakhla/details/image01.jpg' },
         { src: '/static/assets/projects/Conco/Siegedelaregiondedakhla/details/image02.jpg' },
@@ -208,6 +218,7 @@ export const store = new Vuex.Store({
       },
       // Educ
       { name: 'CrecheThenestacademy',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Educ/CrecheThenestacademy/details/image01.jpg' },
         { src: '/static/assets/projects/Educ/CrecheThenestacademy/details/image02.jpg' },
@@ -216,6 +227,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'EcoleMontessori',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Educ/EcoleMontessori/details/image01.jpg' },
         { src: '/static/assets/projects/Educ/EcoleMontessori/details/image02.jpg' },
@@ -224,6 +236,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Mundiapolis',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Educ/Mundiapolis/details/image01.jpg' },
         { src: '/static/assets/projects/Educ/Mundiapolis/details/image02.jpg' },
@@ -233,6 +246,7 @@ export const store = new Vuex.Store({
       },
       // Hospi
       { name: 'Centredesante',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/Centredesante/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/Centredesante/details/image02.jpg' },
@@ -241,7 +255,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CliniqueAlHakim',
-        txt: '',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueAlHakim/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueAlHakim/details/image02.jpg' },
@@ -250,28 +264,33 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CliniqueBadr',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueBadr/details/image01.jpg' }
         ]
       },
       { name: 'CliniqueDentaire',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueDentaire/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueDentaire/details/image02.jpg' }
         ]
       },
       { name: 'CliniqueGuess',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueGuess/details/image01.jpg' }
         ]
       },
       { name: 'CliniqueLelittoral',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueLelittoral/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueLelittoral/details/image02.jpg' }
         ]
       },
       { name: 'CliniqueMaarif',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueMaarif/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueMaarif/details/image02.jpg' },
@@ -281,6 +300,7 @@ export const store = new Vuex.Store({
       },
       // Institu
       { name: 'AeroportOujdaAngad',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/AeroportOujdaAngad/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/AeroportOujdaAngad/details/image02.jpg' },
@@ -289,6 +309,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'AeroportTanger',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/AeroportTanger/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/AeroportTanger/details/image02.jpg' },
@@ -296,12 +317,14 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'AsmaaInvest',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/AsmaaInvest/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/AsmaaInvest/details/image02.jpg' }
         ]
       },
       { name: 'BanqueAlMaghribLaayoune',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/BanqueAlMaghribLaayoune/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/BanqueAlMaghribLaayoune/details/image02.jpg' },
@@ -310,6 +333,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Colorado',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Colorado/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Colorado/details/image02.jpg' },
@@ -318,6 +342,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CreditduMarocRooswelt',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/CreditduMarocRooswelt/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/CreditduMarocRooswelt/details/image02.jpg' },
@@ -326,6 +351,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Dolidol',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Dolidol/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Dolidol/details/image02.jpg' },
@@ -334,6 +360,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ImmeubleBoukiSidimaarouf',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBoukiSidimaarouf/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/ImmeubleBoukiSidimaarouf/details/image02.jpg' },
@@ -342,16 +369,19 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ImmeubleBounkitSocrate1',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBounkitSocrate1/details/image01.jpg' }
         ]
       },
       { name: 'ImmeubleBounkitSocrate2',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBounkitSocrate2/details/image01.jpg' }
         ]
       },
       { name: 'Maroclear',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Maroclear/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Maroclear/details/image02.jpg' },
@@ -360,11 +390,13 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Saga',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Saga/details/image01.jpg' }
         ]
       },
       { name: 'Siege2M',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Siege2M/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Siege2M/details/image02.jpg' },
@@ -373,6 +405,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeCOCACOLA',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeCOCACOLA/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeCOCACOLA/details/image02.jpg' },
@@ -381,6 +414,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeHDID',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeHDID/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeHDID/details/image02.jpg' },
@@ -389,6 +423,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeOFPPT',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeOFPPT/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeOFPPT/details/image02.jpg' },
@@ -397,6 +432,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Zevaco',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Institu/Zevaco/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Zevaco/details/image02.jpg' },
@@ -405,6 +441,7 @@ export const store = new Vuex.Store({
       },
       // Resid
       { name: 'BouskouraGolfcity',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/BouskouraGolfcity/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/BouskouraGolfcity/details/image02.jpg' },
@@ -412,6 +449,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CaliforniaGolfRessort',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/CaliforniaGolfRessort/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/CaliforniaGolfRessort/details/image02.jpg' },
@@ -420,6 +458,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Lesjardinsdelocean',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/Lesjardinsdelocean/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/Lesjardinsdelocean/details/image02.jpg' },
@@ -428,6 +467,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'VillaBassamat',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/VillaBassamat/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/VillaBassamat/details/image02.jpg' },
@@ -436,6 +476,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche1',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche1/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/ZenithParcTranche1/details/image02.jpg' },
@@ -444,6 +485,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche2',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche2/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/ZenithParcTranche2/details/image02.jpg' },
@@ -452,12 +494,14 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche3',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche3/details/image01.jpg' }
         ]
       },
       // Restau
       { name: 'aufourabois',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/aufourabois/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/aufourabois/details/image02.jpg' },
@@ -466,6 +510,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Club20',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/Club20/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/Club20/details/image02.jpg' },
@@ -474,6 +519,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'LELIERRE',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/LELIERRE/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/LELIERRE/details/image02.jpg' },
@@ -482,6 +528,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Pizzahut',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/Pizzahut/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/Pizzahut/details/image02.jpg' },
@@ -489,6 +536,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SEGAFREDOAnfa',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/SEGAFREDOAnfa/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/SEGAFREDOAnfa/details/image02.jpg' },
@@ -497,6 +545,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SegafredoCIL',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/SegafredoCIL/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/SegafredoCIL/details/image02.jpg' },
@@ -505,6 +554,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Thaigarden',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Restau/Thaigarden/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/Thaigarden/details/image02.jpg' },
@@ -513,6 +563,7 @@ export const store = new Vuex.Store({
       },
       // Touri
       { name: 'ClubAttijariWafaCos',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/ClubAttijariWafaCos/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/ClubAttijariWafaCos/details/image02.jpg' },
@@ -523,6 +574,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CLUBBPMarrakech',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/CLUBBPMarrakech/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/CLUBBPMarrakech/details/image02.jpg' },
@@ -531,6 +583,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'MariottHotelTetouen',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/MariottHotelTetouen/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/MariottHotelTetouen/details/image02.jpg' },
@@ -538,12 +591,14 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'RAMOMNISPORT',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/RAMOMNISPORT/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/RAMOMNISPORT/details/image02.jpg' }
         ]
       },
       { name: 'RMACentreestivageMarrakech',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/RMACentreestivageMarrakech/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/RMACentreestivageMarrakech/details/image02.jpg' },
@@ -553,6 +608,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'RMAClubCasablanca',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Touri/RMAClubCasablanca/details/image01.jpg' },
         { src: '/static/assets/projects/Touri/RMAClubCasablanca/details/image02.jpg' },
@@ -562,6 +618,7 @@ export const store = new Vuex.Store({
       },
       // Urbapro
       { name: 'Bouskouragolfcity',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Urbapro/Bouskouragolfcity/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/Bouskouragolfcity/details/image02.jpg' },
@@ -569,6 +626,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'LesJardinsdelOcean',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
           { src: '/static/assets/projects/Urbapro/LesJardinsdelOcean/details/image01.jpg' },
           { src: '/static/assets/projects/Urbapro/LesJardinsdelOcean/details/image02.jpg' },
@@ -577,6 +635,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'VictoriaCity',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Urbapro/VictoriaCity/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/VictoriaCity/details/image02.jpg' },
@@ -585,6 +644,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'LespinsdeBouskoura',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Urbapro/LespinsdeBouskoura/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/LespinsdeBouskoura/details/image02.jpg' }
