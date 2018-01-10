@@ -97,7 +97,7 @@
               <span class="newsalign">News</span>
             </div>
             <div class="newsinfo">
-              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="right" width="400px">{{ infos }}</marquee>
+              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="left" width="400px">{{ infos }}</marquee>
             </div>
             <div class="youtube">
               <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
@@ -131,17 +131,49 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'app',
   data () {
     return {
-      infos: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      infos: '',
+      rss_title: []
     }
   },
   methods: {
     // toAgence () {
     //   this.$router.push('/agence')
     // }
+  },
+  created () {
+    axios({
+      url: 'https://api.rss2json.com/v1/api.json',
+      method: 'GET',
+      dataType: 'json',
+      params: {
+        // https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.archimedia.ma%2Findex.php%3Fformat%3Dfeed%26type%3Drss&api_key=wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui
+        rss_url: 'http://www.archimedia.ma/index.php?format=feed&type=rss',
+        api_key: 'wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui',
+        count: 5
+      }
+    })
+    .then(response => {
+      console.log('response satus', response.status)
+      console.log('response data', response.data.items)
+      // console.log('====== ' + response.feed.title + ' ======')
+      this.rss_title = response.data.items
+      // response.data.items[Math.floor(Math.random() * response.data.items.length)].title
+      // this.infos = response.data.feed.description
+    })
+    .catch(e => {
+      this.errors.push(e)
+    })
+  },
+  mounted () {
+    setInterval(() => {
+      this.infos = this.rss_title[Math.floor(Math.random() * this.rss_title.length)].title
+      console.log(this.infos)
+    }, 10000)
   }
 }
 </script>

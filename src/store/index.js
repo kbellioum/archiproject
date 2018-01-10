@@ -125,7 +125,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'cih',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'D\'un parti pris architectural porté sur la légèreté, la finesse et la pureté des espaces, le projet porte sur la rénovation du rez-de-chaussée et de la mezzanine du siège de la banque CIH.',
         images: [
         { src: '/static/assets/projects/Amenag/cih/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/cih/details/image02.jpg' },
@@ -134,7 +134,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'cih6',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le projet de réaménagement des locaux de direction de la banque CIH s\'est basé sur un concept qui favorise la transparence et la légèreté. Le lien entre espace de travail, organisation et stratégie fait partie des intentionnalité recherchées. ',
         images: [
         { src: '/static/assets/projects/Amenag/cih6/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/cih6/details/image02.jpg' },
@@ -143,7 +143,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ShowroomNespresso',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Afin de développer l\'identité et l\'image de Nespresso , le groupe a décider de réaménager un local commercial en showroom  perçu avant tout comme un endroit ou s\'informer sur les produits de la marque sans pour autant négliger le côté commercial. C\'est un lieu ou s\'impose la stratégie de communication- marketing.',
         images: [
         { src: '/static/assets/projects/Amenag/ShowroomNespresso/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/ShowroomNespresso/details/image02.jpg' },
@@ -153,7 +153,7 @@ export const store = new Vuex.Store({
       },
       // CentreCom
       { name: 'MoroccoMall',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Un projet d\'envergure  réalisé en collaboration avec un cabiner international de renom ou le challenge était de réaliser un édifice unique en son genre. Une inspiration faite du site en lui même par la présence de l\'océan, la brise... le design a été imaginer comme une sorte de coquillage reprenant l\'aspect d\'une vague. C\'est en quelque sorte l\'idée d\'une construction sculptée par son environnement.',
         images: [
         { src: '/static/assets/projects/CentreCom/Moroccomall/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/Moroccomall/details/image02.jpg' },
@@ -180,7 +180,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'MarjaneTachfine',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Situé sur un quartier en pleine mutation, le nouveau centre commercial Tachefine Center se dresse sur le boulevard Ibnou Tachfine à proximité de la gare ferroviaire casa-voyageur. Venue dans le but de répondre à la nouvelle vocation d\'un quartier modernisé. Le choix de sa localisation met en envergure le renouveau et l\'attractivité d\'un quartier traditionnel qui se modernise.',
         images: [
         { src: '/static/assets/projects/CentreCom/MarjaneTachfine/details/image01.jpg' },
         { src: '/static/assets/projects/CentreCom/MarjaneTachfine/details/image02.jpg' },
@@ -199,7 +199,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'GrandstadedeCasablanca',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le concours international pour le Grand Stade de Casablanca a été lancé par le Ministère Marocain de l\'équipement. Travaillé en collaboration avec l\'agence parisienne SCAU, le projet envisage une capacité de 80.000 spectateurs et doit s\'implanté sur un foncier situé au quartier Sidi-Moumen.',
         images: [
         { src: '/static/assets/projects/Conco/GrandstadedeCasablanca/details/image01.jpg' },
         { src: '/static/assets/projects/Conco/GrandstadedeCasablanca/details/image02.jpg' },
@@ -208,7 +208,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Siegedelaregiondedakhla',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le concept destinée à la réalisation du siège de la région de Dakhla a pour objectif de  rechercher une métaphysique provoquée par le site à travers ses atouts sensoriels. Le foncier destiné à accueillir le projet  se localise entre silence et agitation dans une agglomération dont l\'architecture est particulière.',
         images: [
         { src: '/static/assets/projects/Conco/Siegedelaregiondedakhla/details/image01.jpg' },
         { src: '/static/assets/projects/Conco/Siegedelaregiondedakhla/details/image02.jpg' },
@@ -218,7 +218,7 @@ export const store = new Vuex.Store({
       },
       // Educ
       { name: 'CrecheThenestacademy',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Par sa situation sur le boulevard, "The Nest Academy"  s\'inscrit dans les gabarit existant du quartier. Sauf que, pour une volonté de représenter un signal majeur, la tête d’une gigantesque girafe jaune sort du toit et ses pattes semblent agir comme une colonne de soutien du bâtiment. Une idée originale pour créer une animation au sein du quartier mais aussi pour attirer un maximum de passant. L\'infiltration de la girafe à la volumétrie du bâtiment, représente une métaphore évolutive, tout en respectant l\'équilibre du contexte urbain qui l\'entoure.',
         images: [
         { src: '/static/assets/projects/Educ/CrecheThenestacademy/details/image01.jpg' },
         { src: '/static/assets/projects/Educ/CrecheThenestacademy/details/image02.jpg' },
@@ -236,7 +236,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Mundiapolis',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Les principes conceptuels de la réalisation du projet Mundiapolis portent sur une bonne orientation des bâtiments, une ouverture nord-est, une circulation d\'air favorisée par l\'implantation des pilotis, l\'utilisation des barrières végétales contre les nuisances sonores, l\'éclairage naturel ainsi que la mise en place et la gestion  d\'un chantier propre afin de répondre aux exigences de l\'éco construction.',
         images: [
         { src: '/static/assets/projects/Educ/Mundiapolis/details/image01.jpg' },
         { src: '/static/assets/projects/Educ/Mundiapolis/details/image02.jpg' },
@@ -277,13 +277,13 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CliniqueGuess',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Située dans un prestigieux quartier résidentiel au cœur de la capitale économique, Guess clinique se veut un projet harmonisant les liens entre l\'architecture du bâtiment et la fonctionnalité. En effet, l\'esthétique est reflétée à travers la simplicité de la volumétrie.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueGuess/details/image01.jpg' }
         ]
       },
       { name: 'CliniqueLelittoral',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Destinée à recevoir des patients atteints de maladies chroniques, la clinique le littoral est spécialisé en oncologie. L\'objectif de la conception adoptée pour le projet,  allie conformité et convivialité. Le lieu a été pensée de manière à faire oublier le malaise aux patients.',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueLelittoral/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueLelittoral/details/image02.jpg' }
@@ -317,14 +317,14 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'AsmaaInvest',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Pour fêter ses vingt ans de leur installation au Maroc, le holding Saoudio-Marocain décide de construire son siège social sur l\'une des principales artères de Casablanca.',
         images: [
         { src: '/static/assets/projects/Institu/AsmaaInvest/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/AsmaaInvest/details/image02.jpg' }
         ]
       },
       { name: 'BanqueAlMaghribLaayoune',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'La réalisation de la nouvelle agence Bank Al Maghrib de Laâyoune a fait objet d\'un concours national ou l\'agence Archi Design a réussit à obtenir le 1er prix. Cette initiative a été obtenue grâce à la conception du projet qui se veut répondre aux contraintes environnementales et climatiques ainsi qu\'aux avantages que représente le terrain par sa situation sur une parcelle de 5100 metre carré en plein cœur du quartier administratif de la ville.',
         images: [
         { src: '/static/assets/projects/Institu/BanqueAlMaghribLaayoune/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/BanqueAlMaghribLaayoune/details/image02.jpg' },
@@ -333,7 +333,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Colorado',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le projet porte sur le fait de regrouper sur un même site, un siège social et des hangars de production et de stockage, d\'une entreprise marocaine de production et commercialisation de peinture pour bâtiment. Deux secteurs: administratif et industriel, dont l\'architecture est complètement différente doivent s\'harmoniser en eux, tel a été le défit à relever lors de la conception de ce projet.',
         images: [
         { src: '/static/assets/projects/Institu/Colorado/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Colorado/details/image02.jpg' },
@@ -342,7 +342,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CreditduMarocRooswelt',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'La banque Crédit du Maroc installe son agence sur l\'angle du boulevard Franklin Roosevelt et rue Bab Errajaa, au quartier val d\'anfa de Casablanca. L\'édifice s\'inscrit dans une architecture cubique sous un aspect moderne ou, les différents espaces sont comprimés dans un cube fermé tout en supprimant la répétition monotone et l\'égalité des faces ainsi que la symétrie.',
         images: [
         { src: '/static/assets/projects/Institu/CreditduMarocRooswelt/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/CreditduMarocRooswelt/details/image02.jpg' },
@@ -351,7 +351,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Dolidol',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le projet consiste à compacter un programme industriel vaste et complexe sur un foncier de superficie importante. L\'enjeu de cette usine d\'ameublement est de réaliser une planification convenable au déroulement de l\'activité tout en envisageant les développement future. C\'est pour cette raison que la perte d\'espace est loin d\'être autorisée.',
         images: [
         { src: '/static/assets/projects/Institu/Dolidol/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Dolidol/details/image02.jpg' },
@@ -360,7 +360,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ImmeubleBoukiSidimaarouf',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Par sa situation stratégique à l\'entrée de la capitale économique, la volonté du client a été de réaliser un projet attractif digne de son emplacement afin de jouer le rôle d\'un repère architectural. ',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBoukiSidimaarouf/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/ImmeubleBoukiSidimaarouf/details/image02.jpg' },
@@ -369,19 +369,19 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ImmeubleBounkitSocrate1',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Par son implantation dans un quartier résidentiel dense, la fragmentation des volumes du bâtiment en question font de lui un espace de travail adéquat au bien être des futures utilisateurs. Les façades principales et arrières sont traitées en murs rideaux, structurées par des lignes épurées et par de forts contrastes entre la verticalité et l\'horizontalité qui les caractérisent .',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBounkitSocrate1/details/image01.jpg' }
         ]
       },
       { name: 'ImmeubleBounkitSocrate2',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Situé sur le Boulevard Socrate dans un angle de rue et sur un terrain circulaire, le projet consiste à la construction de plateaux bureaux dans un immeuble en R+5.',
         images: [
         { src: '/static/assets/projects/Institu/ImmeubleBounkitSocrate2/details/image01.jpg' }
         ]
       },
       { name: 'Maroclear',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'La construction du siège de Maroclear s’est différenciée par une architecture fragmentaire en une volumétrie volontaire où s’articulent les espaces et les volumes, tantôt opaques, tantôt transparents. La forme de l’édifice a été imaginée dans une perspective de tendance contemporaine, basée sur la transparence dans une optique de pureté et d’élégance.',
         images: [
         { src: '/static/assets/projects/Institu/Maroclear/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Maroclear/details/image02.jpg' },
@@ -390,13 +390,13 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'Saga',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Le bâtiment a été conçut pour abriter une société de communication dont les principes de conception ont été définit depuis les premières esquisse du projet: Noblesse, transparence et intégration.',
         images: [
         { src: '/static/assets/projects/Institu/Saga/details/image01.jpg' }
         ]
       },
       { name: 'Siege2M',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'L\'agence Archi Design a été choisi par la deuxième chaîne télévisée marocaine afin de construire et d’aménager l’extension de son siège social.',
         images: [
         { src: '/static/assets/projects/Institu/Siege2M/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/Siege2M/details/image02.jpg' },
@@ -405,7 +405,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeCOCACOLA',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'C\'est dans le cadre d\'un concours lancé par la multinationale qu\'Archi Design a été lauréat pour la construction et l‘aménagement du siège de Coca-cola, situé dans le nouveau quartier industriel de la capitale économique.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeCOCACOLA/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeCOCACOLA/details/image02.jpg' },
@@ -414,7 +414,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeHDID',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Situé dans une petite ruelle du Boulevard Abdelekrim KHETTABI de la capitale économique, le Siège HDID a été conçu de manière à offrir un cadre professionnel agréable.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeHDID/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeHDID/details/image02.jpg' },
@@ -423,7 +423,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SiegeOFPPT',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Conçu pour le compte de l\'office de la formation professionnelle et de la promotion du travail, Archi Design a approché le projet dans le but d\'améliorer la qualité de formation.',
         images: [
         { src: '/static/assets/projects/Institu/SiegeOFPPT/details/image01.jpg' },
         { src: '/static/assets/projects/Institu/SiegeOFPPT/details/image02.jpg' },
@@ -476,7 +476,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche1',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Au cœur de la nature, s’insérant dans le vaste projet de ville nouvelle Victoria City à la sortie de Bouskoura, le Zenith Parc propose un produit de moyen standing dont la qualité architecturale est à la hauteur des attentes du consommateur.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche1/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/ZenithParcTranche1/details/image02.jpg' },
@@ -485,7 +485,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche2',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Au cœur de la nature, s’insérant dans le vaste projet de ville nouvelle Victoria City à la sortie de Bouskoura, le Zenith Parc propose un produit de moyen standing dont la qualité architecturale est à la hauteur des attentes du consommateur.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche2/details/image01.jpg' },
         { src: '/static/assets/projects/Resid/ZenithParcTranche2/details/image02.jpg' },
@@ -494,7 +494,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'ZenithParcTranche3',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Au cœur de la nature, s’insérant dans le vaste projet de ville nouvelle Victoria City à la sortie de Bouskoura, le Zenith Parc propose un produit de moyen standing dont la qualité architecturale est à la hauteur des attentes du consommateur.',
         images: [
         { src: '/static/assets/projects/Resid/ZenithParcTranche3/details/image01.jpg' }
         ]
@@ -545,7 +545,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'SegafredoCIL',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Choisissant de s\'implanter dans un quartier résidentiel de la capitale économique Marocaine, la franchise italienne fait appel au service d\'Archi Design pour conceptualiser un édifice qui lui ai dédié en entier.',
         images: [
         { src: '/static/assets/projects/Restau/SegafredoCIL/details/image01.jpg' },
         { src: '/static/assets/projects/Restau/SegafredoCIL/details/image02.jpg' },
@@ -618,7 +618,7 @@ export const store = new Vuex.Store({
       },
       // Urbapro
       { name: 'Bouskouragolfcity',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Situé à quelques minutes de l\'entrée de la ville de Casablanca, non loin de l\'aéroport international Mohammed V, mitoyen à la forêt de Bouskoura, le projet Bouskoura Golf City dévire de deux idées importantes: Celle de la prééminence de la verdure sur la densité d\'habitation, et une forte diversification architecturale et résidentielle.',
         images: [
         { src: '/static/assets/projects/Urbapro/Bouskouragolfcity/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/Bouskouragolfcity/details/image02.jpg' },
@@ -626,7 +626,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'LesJardinsdelOcean',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Les Jardins de l\'océan, un prestigieux site résidentiel et balnéaire des villas de maitres dans un environnement verdoyant à proximité de toute commodité.',
         images: [
           { src: '/static/assets/projects/Urbapro/LesJardinsdelOcean/details/image01.jpg' },
           { src: '/static/assets/projects/Urbapro/LesJardinsdelOcean/details/image02.jpg' },
@@ -635,7 +635,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'VictoriaCity',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Dans le programme d\'extension de la ville de Casablanca, le pôle urbain "Victoria City" se développera sur la zone de Ouled Saleh sous la vocation de mixité sociale et développement durable.',
         images: [
         { src: '/static/assets/projects/Urbapro/VictoriaCity/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/VictoriaCity/details/image02.jpg' },
@@ -644,7 +644,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'LespinsdeBouskoura',
-        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
+        txt: 'Bénéficiant d\'un emplacement exceptionnel à proximité de Casablanca, de l\'autoroute de Marrakech, de la nouvelle rocade menant à Dar Bouazza, le projet "Les pins de Bouskoura" est un projet d\'exception qui se développera sur un foncier de 35 hectares et qui contribuera à soulager les besoins en logements.',
         images: [
         { src: '/static/assets/projects/Urbapro/LespinsdeBouskoura/details/image01.jpg' },
         { src: '/static/assets/projects/Urbapro/LespinsdeBouskoura/details/image02.jpg' }

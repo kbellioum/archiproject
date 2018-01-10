@@ -32,7 +32,7 @@
        <div id="textinfo" class="">{{id}}</div>
 
        <div id='b' class="cible">
-         <h1>Titre</h1>
+         <!-- <h1>Titre</h1> -->
          <p>
            <div>{{projects[0].txt}}</div>
          </p>
