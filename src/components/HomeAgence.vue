@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="said">
+    <div class="said2">
       <h2>L'architecte</h2>
     </div>
     <div class="suite animated infinite slideInDown">
@@ -236,12 +236,19 @@ body{
 .said {
 
   text-align: justify;
-  font-weight: 100;
+  font-weight: 200;
   /* font-size: 45px;
   margin: 30px; */
 }
 
-.said h2::first-letter {
+.said2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 45px;
+  margin: 30px;
+}
+
+.said2 h2::first-letter {
   color: #ffe400;
   font-size: 150%;
 }
