@@ -116,6 +116,7 @@ export const store = new Vuex.Store({
     detailProj: [
       // Amenag
       { name: 'GalerySoArt',
+        txt: 'Le projet consiste à réamenager un local commercial en galerie d\'art contemporain. L\'espace en question a été complétement décloisonné afin que l\'architecture laisse place aux oeuvre d\'art qui seront exposés.',
         images: [
         { src: '/static/assets/projects/Amenag/GalerySoArt/details/image01.jpg' },
         { src: '/static/assets/projects/Amenag/GalerySoArt/details/image02.jpg' },
@@ -240,6 +241,7 @@ export const store = new Vuex.Store({
         ]
       },
       { name: 'CliniqueAlHakim',
+        txt: '',
         images: [
         { src: '/static/assets/projects/Hospi/CliniqueAlHakim/details/image01.jpg' },
         { src: '/static/assets/projects/Hospi/CliniqueAlHakim/details/image02.jpg' },
