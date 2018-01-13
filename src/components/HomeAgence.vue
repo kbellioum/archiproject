@@ -89,6 +89,51 @@
       </div>
     </div>
 
+    <div class="said2">
+      <h2 class="text-center">Références </h2>
+    </div>
+
+    <!-- <section id="references"> -->
+    <div class="logos">
+
+            <div class="col-md-2"><img src="/static/assets/images/partners/cih.jpg" width="150" height="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/garan.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/alazrak.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/prestigia.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/palmeraie.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/RMA.jpg" width="150" class="center" /></div>
+
+
+            <div class="col-md-2"><img src="/static/assets/images/partners/iam.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/ram.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/pizzahut.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/shell.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/nespresso.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/mundiapolis.jpg" width="150" class="center" /></div>
+
+
+            <div class="col-md-2"><img src="/static/assets/images/partners/cocacola.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/marjane.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/moroccomall.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/marocclear.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/lafarge.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/kitea.jpg" width="150" class="center" /></div>
+
+
+            <div class="col-md-2"><img src="/static/assets/images/partners/bcp.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/antalya.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/cdm.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/dolidol.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/colorado.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/alliances.jpg" width="150" class="center" /></div>
+
+            <div class="col-md-2"><img src="/static/assets/images/partners/asma.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/2m.jpg" width="150" class="center" /></div>
+            <div class="col-md-2"><img src="/static/assets/images/partners/cnia.jpg" width="150" class="center" /></div>
+
+    </div>
+  <!-- </section> -->
+
     <div class="foot">
       <!-- Some space for the scrolling -->
     </div>
@@ -165,6 +210,18 @@ body{
 
 }
 
+.logos {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-auto-flow: row;
+  justify-content: center;
+  background: white;
+}
+
+
 .row2 {
   display: grid;
   grid-template: "d e f g";
@@ -231,6 +288,7 @@ body{
 
 .foot {
   height: 100px;
+  background: white;
 }
 
 .said {

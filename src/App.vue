@@ -97,7 +97,7 @@
               <span class="newsalign">News</span>
             </div>
             <div class="newsinfo">
-              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="left" width="400px">{{ infos }}</marquee>
+              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="left" width="400px">{{ news.txt }}</marquee>
             </div>
             <div class="youtube">
               <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
@@ -136,6 +136,10 @@ export default {
   name: 'app',
   data () {
     return {
+      news: {
+        txt: '',
+        link: ''
+      },
       infos: '',
       rss_title: []
     }
@@ -171,9 +175,12 @@ export default {
   },
   mounted () {
     setInterval(() => {
-      this.infos = this.rss_title[Math.floor(Math.random() * this.rss_title.length)].title
-      console.log(this.infos)
-    }, 10000)
+      let ar = this.rss_title[Math.floor(Math.random() * this.rss_title.length)]
+      // this.infos = this.rss_title[Math.floor(Math.random() * this.rss_title.length)].title
+      this.news.txt = ar.title
+      this.news.link = ar.link
+      console.log(this.news)
+    }, 20000)
   }
 }
 </script>
@@ -197,6 +204,11 @@ export default {
 .newsinfo {
   /* border: 2px solid white; */
   overflow: hidden;
+}
+
+.newsinfo marquee a {
+  text-decoration: none;
+  color: white !important;
 }
 
 .blackpart div a:link {

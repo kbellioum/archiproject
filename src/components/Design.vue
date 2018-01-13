@@ -26,7 +26,7 @@
   <div class="container">
 
     <div class="diagonal1" id="d0">
-      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145104/Adrchiproject/interieur-1.jpg" caption="image1">
+      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145104/Adrchiproject/interieur-1.jpg" caption="">
         <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_550,w_750/v1515145104/Adrchiproject/interieur-1.jpg" alt="">
         <p class="overlay">
         TEST
@@ -38,7 +38,7 @@
     </div>
 
     <div class="diagonal2" id="d1">
-      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145261/Adrchiproject/interieur-3.jpg" caption="image3">
+      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145261/Adrchiproject/interieur-3.jpg" caption="">
 
       <img src="http://res.cloudinary.com/kbellioum/image/upload/c_scale,h_590,w_790/v1515145261/Adrchiproject/interieur-3.jpg" alt="">
 
@@ -49,7 +49,7 @@
     </div>
 
     <div class="diagonal3" id="d2">
-      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145126/Adrchiproject/interieur-2.jpg" caption="image2">
+      <lightbox src="https://res.cloudinary.com/kbellioum/image/upload/v1515145126/Adrchiproject/interieur-2.jpg" caption="">
 
         <img src="https://res.cloudinary.com/kbellioum/image/upload/c_scale,h_550,w_750/v1515145126/Adrchiproject/interieur-2.jpg" alt="">
 

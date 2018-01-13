@@ -35,25 +35,25 @@
     <li>
       <div> <a href="#">
         <h2>Victoria City</h2>
-        <p>Garan 12</p>
+        <p>Garan</p>
         </a> </div>
     </li>
     <li>
       <div> <a href="#">
         <h2>LES PINS DE BOUSKOURA</h2>
-        <p>Lorem ipsum dolor sit amet</p>
+        <p>Société les pins</p>
         </a> </div>
     </li>
     <li>
       <div> <a href="#">
-        <h2>Les Jardins de l'Ocean</h2>
-        <p>Perspective d'ensemble</p>
+        <h2>California golf resort</h2>
+        <p>Palmeraie développement</p>
         </a> </div>
     </li>
     <li>
       <div> <a href="#">
-        <h2>Golf City</h2>
-        <p>Bouskoura</p>
+        <h2>Bouskoura Golf City</h2>
+        <p>Prestigia</p>
         </a> </div>
     </li>
     <!-- <li>
