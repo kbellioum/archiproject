@@ -26,7 +26,7 @@
           </div>
 
           <div class="button-set">
-            <button id="register-btn">Envoyer</button>
+            <button id="register-btn" @click="mailsend">Envoyer</button>
             <button id="annuler-btn" @click="hide">Annuler</button>
           </div>
 
@@ -92,6 +92,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'Contact',
   data () {
@@ -106,6 +108,36 @@ export default {
     hide () {
       // this.close = !this.close
       this.$modal.hide('example')
+    },
+    mailsend () {
+      axios({
+        url: 'https://mailsend-kb.herokuapp.com/test',
+        method: 'POST',
+        dataType: 'json',
+        data: {
+          from: 'Excited User <me@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org>',
+          to: 'kbellioum@gmail.com',
+          subject: 'From ArchiDesign WebSite',
+          text: 'Salam OKOK'
+        }
+        // params: {
+        //   // https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.archimedia.ma%2Findex.php%3Fformat%3Dfeed%26type%3Drss&api_key=wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui
+        //   rss_url: 'http://www.archimedia.ma/index.php?format=feed&type=rss',
+        //   api_key: 'wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui',
+        //   count: 5
+        // }
+      })
+      .then(response => {
+        console.log('response satus', response.status)
+        // console.log('response data', response.data.items)
+        // console.log('====== ' + response.feed.title + ' ======')
+        // this.rss_title = response.data.items
+        // response.data.items[Math.floor(Math.random() * response.data.items.length)].title
+        // this.infos = response.data.feed.description
+      })
+      .catch(e => {
+        console.log(e)
+      })
     },
     show () {
       this.$modal.show('example', {
