@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <modal name="example"
+    <modal name="contact"
        :width="656"
        :height="400">
    <div class="box">
@@ -14,9 +14,9 @@
               <input type="password">
             </div>
 
-            <input id="n-username" type="text" placeholder="Nom">
-            <input id="n-email" type="text" placeholder="Email">
-            <textarea name="n-message" rows="4" cols="80" placeholder="Message">
+            <input id="n-username" type="text" placeholder="Nom" v-model="data.subject">
+            <input id="n-email" type="text" placeholder="Email" v-model="data.to">
+            <textarea name="n-message" rows="4" cols="80" placeholder="Message" v-model="data.text">
 
             </textarea>
             <!-- <input id="n-password2" type="password" placeholder="Password"> -->
@@ -28,6 +28,7 @@
           <div class="button-set">
             <button id="register-btn" @click="mailsend">Envoyer</button>
             <button id="annuler-btn" @click="hide">Annuler</button>
+            <!-- <div class="g-recaptcha" data-sitekey="6LdX0UAUAAAAABE4YouJfw13ZZIyO40i-Xe6i8sI"></div> -->
           </div>
 
           <!-- <button class="large-btn github-btn">connect with <span>github</span></button> -->
@@ -101,13 +102,19 @@ export default {
       msg: '',
       time: 0,
       close: false,
-      duration: 5000
+      duration: 5000,
+      data: {
+        from: '',
+        to: '',
+        subject: '',
+        text: ''
+      }
     }
   },
   methods: {
     hide () {
       // this.close = !this.close
-      this.$modal.hide('example')
+      this.$modal.hide('contact')
     },
     mailsend () {
       console.log('Sending Mail')
@@ -116,10 +123,10 @@ export default {
         method: 'POST',
         dataType: 'json',
         data: {
-          from: 'Excited User <me@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org>',
-          to: 'kbellioum@gmail.com',
-          subject: 'From ArchiDesign WebSite',
-          text: 'Salam OKOK'
+          from: 'ArchiDesign WebSite <donotreply@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org>',
+          to: this.data.to,
+          subject: 'Vous avez reçu un message de la part de ' + this.data.subject,
+          text: this.data.text
         }
         // params: {
         //   // https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.archimedia.ma%2Findex.php%3Fformat%3Dfeed%26type%3Drss&api_key=wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui
@@ -130,6 +137,7 @@ export default {
       })
       .then(response => {
         console.log('response satus', response.status)
+        this.hide()
         // console.log('response data', response.data.items)
         // console.log('====== ' + response.feed.title + ' ======')
         // this.rss_title = response.data.items
@@ -141,7 +149,7 @@ export default {
       })
     },
     show () {
-      this.$modal.show('example', {
+      this.$modal.show('contact', {
         title: 'Alert!',
         text: 'You are too awesome',
         buttons: [
