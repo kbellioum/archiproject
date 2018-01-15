@@ -5,7 +5,7 @@
     <hr>
     <img src="http://via.placeholder.com/1024x500?text=Carriere" alt=""> -->
     <div class="head">
-      <h1>Titre</h1>
+      <h1></h1>
     </div>
     <div class="head2">
       <h2>Condidature Spontanné</h2>
@@ -81,7 +81,7 @@
           <p>OK file uploaded</p>
           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" @click="removeImage">Supprimer le CV</a>
         </div>
-
+        <div class="g-recaptcha" data-sitekey="6LdX0UAUAAAAABE4YouJfw13ZZIyO40i-Xe6i8sI"></div>
       </form>
 
 
