@@ -44,7 +44,7 @@ export default {
   mounted () {
     setTimeout(() => {
       this.list = [
-        { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-1.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-1.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Siège HDID' },
+        { backgroundColor: '#f44336', width: '100%', height: '100%', src: 'https://res.cloudinary.com/kbellioum/image/upload/v1516033132/Adrchiproject/scan_6.jpg', background: 'url(\'https://res.cloudinary.com/kbellioum/image/upload/v1516033132/Adrchiproject/scan_6.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'California Golf Resort' },
         { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-2.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-2.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Morocco Mall' },
         { backgroundColor: '#f44336', width: '100%', height: '100%', src: '/static/assets/homeslider/images/big/img-slider-3.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-3.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'CIH' },
         { backgroundColor: '#f44336', width: '100%', height: '100%', src: 'https://res.cloudinary.com/kbellioum/image/upload/v1515081795/Adrchiproject/BOUSKOURAGOLFCITY.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Bouskoura Golf City' },
