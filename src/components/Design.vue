@@ -3,8 +3,12 @@
     <div class="text">
       <h1>Design d'interieur</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Dans le but d'accompagner ses clients dans l'aménagement de leurs espaces de vie, Archi design propose d'effectuer le design intérieur des différents lieux.
+        L'ambition est de donner une identité et une harmonie à l'espace tout en restant conforme aux exigences et aux attentes du client. Archi Design se base à priori sur  l'analyse des besoins, la compréhension du contexte et surtout sur le style recherché par le client afin de présenter une maquette bien détaillée qui répond au attentes du client.
       </p>
+      <!-- <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p> -->
     </div>
 
         <!-- <div class="image1">

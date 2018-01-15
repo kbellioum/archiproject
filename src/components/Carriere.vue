@@ -12,8 +12,23 @@
     </div>
     <div class="text">
 
-      <p>
+      <!-- <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p> -->
+      <p>
+        Ayant vu le jour en 1985 au Canada, Archi Design s'est développée en un premier temps au pays nord américain avant de se présenter et gagner le concours de la Clinique Al Hakim, qui fut son premier projet au territoire national.
+      </p>
+      <br>
+      <p>
+        Le succès qu'a eu la clinique citée ci haut a attirer de nouveaux clients dans le secteur hospitalier. Archi Design a donc fait face à une forte demande dans le domaine sanitaire en plus de sa spécialisation dans le secteur de la restauration.
+      </p>
+      <br>
+      <p>
+        Archi Design a, en un premier temps, prouver ses compétences dans ses deux domaines avant de cartonner dans d'autres  secteurs  notamment: l'institutionnel, le résidentiel, l'éducatif, le tourisme...
+      </p>
+      <br>
+      <p>
+        Aujourd'hui Archi Design est présente sur le territoire marocain depuis une trentaine d'année. Elle a réussit à prouver ses compétence par la réalisation de grands projets d'envergures: Morocco mall, Siège 2m,, Bouskoura Golf city...
       </p>
     </div>
     <div class="im">

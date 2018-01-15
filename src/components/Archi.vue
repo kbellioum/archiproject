@@ -3,6 +3,18 @@ static<template>
     <div class="text">
         <h1>Architecture</h1>
         <p>
+          Connu par son activité de concevoir des espaces et de bâtir des édifices, dans le respect des critères  économique, techniques, sociales, environnementales et urbanistique. Archi Design a su à travers son expérience, faire preuve de son savoir faire par la réalisation d'une panoplie de projets architecturaux.
+        </p>
+        <p>
+          Cet art de concevoir des espaces par des techniques appropriées est maitrisé par l'équipe professionnel d'Archi Design qui, réussit à constituer des volumes protecteurs de l'homme dans les divers situations de son parcours vital.
+        </p>
+        <p>
+          La prise en considération de plusieurs facteurs d'ordres  physiques, psychologiques, sociologiques, historiques, culturels, économiques, écologiques... fait partie des visions et de la sensibilité de l'équipe, dans le but de concevoir des espaces de dimensions adéquates et convenable à un besoins bien précis.
+        </p>
+        <p>
+          La fonctionnalité, l'esthétique et le bien-être des futures utilisateurs sont les principaux enjeux de conception des  bâtiments réalisé par l'agence. Dans les différents domaines d'activité à savoir: l'institutionnel, l'hospitalier, l'éducatif, la restauration, le résidentiel..., l'approche est la même: Une conception idéale pour un prix concurrentiel, dans un délai de réalisation convenable.
+        </p>
+        <!-- <p>
           A travers son expérience, Archidesign a fait ses preuves dans la réalisation d'une panoplie de projets architecturaux de différents domaines d'activités à savoir:<br>
           <br>
           - L'institutionnel, <br>
@@ -10,7 +22,7 @@ static<template>
           - L'éducatif, <br>
           - La restauration, <br>
           - Le résidentiel...
-        </p>
+        </p> -->
     </div>
       <!-- <img src="http://via.placeholder.com/1024x500?text=Architecture" alt=""> -->
       <div class="slid">

@@ -2,8 +2,20 @@
   <div class="home">
     <div class="text">
         <h1>Sculpture & Art</h1>
-        <p>
+        <!-- <p>
           Toujours dans l'esprit artistique et conceptuel, Archidesign a voulu dévolopper ses attout dans la réalisation de plusieurs sculptures qui s'inscrivent dans des thématiques différentes tout en faisant référence à l'activité lié au bâtiments, à l'urbanisme et à l'aménagement.
+        </p> -->
+        <p>
+          Toujours dans l'esprit artistique et conceptuel, Archi Design a voulu développer ses atout dans la réalisation de sculptures s'inscrivant dans de différentes thématiques, tout en faisant référence à l'activité de l'agence.
+        </p>
+        <p>
+          Etant une expression réalisée par des créations humaines , l'art rejoins l'architecture dans le sens de leur définition. Tout deux réalisés par l'homme dans une optique d'organisation spatiale. En effet, l'architecture est un art fonctionnel et nécessaire aux activités humaines.
+        </p>
+        <p>
+          L'art et l'architecture se rejoignent dans le fait de conceptualiser, d'innover, de réaliser et de mettre en valeur un objet spécifique.
+        </p>
+        <p>
+          La pratique de cet art à trois dimensions consiste à concevoir des corps palpables à base de différents matériaux: bois, fer, résine.. dans le but de donner une identité au lieu d'exposition de ces sculptures.
         </p>
     </div>
       <!-- <img src="http://via.placeholder.com/1024x500?text=Architecture" alt=""> -->

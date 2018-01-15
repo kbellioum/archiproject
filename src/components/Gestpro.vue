@@ -8,10 +8,16 @@
         </div>
 
         <div class="col-1-pres">
-            <p>
+            <!-- <p>
               Afin de mener à bien la mission de gestion de tout projet, archidesign en collaboration avec le client et ses partenaires (Bureau d'études, Métreur, Laboratoire, Bureau de contrôle...), participe aux développement et à l'évolution du projet (Esquisse, APS, Permis, APD, EXE et DCE) tout en respectant la démarche professionnelle imposée par notre agence.
+            </p> -->
+            <p>
+              Afin de mener à bien la mission de gestion de tout projet, Archi Design en collaboration avec le client et ses partenaires (Bureau d'études, Métreur, Laboratoire, Bureau de contrôle...), participe aux développement et à l'évolution du projet (Esquisse, APS, Permis, APD, EXE et DCE) tout en respectant la démarche professionnelle imposée par notre agence.
             </p>
-
+            <br>
+            <p>
+              L'équipe Archi Design accompagne le client dans toute les démarches: Choix du foncier, Benchmark, Conception, Etude de faisabilité, Autorisation de construire, Choix des matériaux, Gestion des budgets, Consultation des entreprises, Suivi de chantier, Aménagement extérieur, Design intérieur, Permis d'habiter, Livraison définitif.... Une panoplie de services pour le seul et unique but de satisfaire le client à tout point de vue.
+            </p>
 
         </div>
     <!-- </div> -->
@@ -56,6 +62,12 @@ export default {
   grid-area: c1;
   margin: 5px;
   padding: 5px;
+}
+
+.col-1-pres p {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .col-2-pres {
