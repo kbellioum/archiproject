@@ -117,7 +117,7 @@ export default {
       this.$modal.hide('contact')
     },
     mailsend () {
-      console.log('Sending Mail')
+      console.log('Sending Mail ...')
       axios({
         url: 'https://mailsend-kb.herokuapp.com/send',
         method: 'POST',
