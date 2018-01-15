@@ -124,7 +124,7 @@ export default {
         dataType: 'json',
         data: {
           from: 'ArchiDesign WebSite <donotreply@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org>',
-          to: 'archidesign@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org',
+          to: 'archidesign@archidesign.ma',
           subject: 'Vous avez reçu un message de la part de ' + this.data.subject + '<' + this.data.to + '>',
           text: this.data.text
         }
