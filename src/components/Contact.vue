@@ -124,8 +124,8 @@ export default {
         dataType: 'json',
         data: {
           from: 'ArchiDesign WebSite <donotreply@sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org>',
-          to: this.data.to,
-          subject: 'Vous avez reçu un message de la part de ' + this.data.subject,
+          to: 'a.bellioum@archidesign.ma, kbellioum@itknowledge.ma',
+          subject: 'Vous avez reçu un message de la part de ' + this.data.subject + '<' + this.data.to + '>',
           text: this.data.text
         }
         // params: {
