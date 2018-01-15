@@ -110,8 +110,9 @@ export default {
       this.$modal.hide('example')
     },
     mailsend () {
+      console.log('Sending Mail')
       axios({
-        url: 'https://mailsend-kb.herokuapp.com/test',
+        url: 'https://mailsend-kb.herokuapp.com/send',
         method: 'POST',
         dataType: 'json',
         data: {
