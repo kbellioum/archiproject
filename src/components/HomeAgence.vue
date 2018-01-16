@@ -282,7 +282,7 @@ body{
   margin: 5px;
   padding: 19px;
   font-size: 23px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
 }
 
@@ -294,7 +294,7 @@ body{
 .said {
 
   text-align: justify;
-  font-weight: 200;
+  font-weight: 300;
   /* font-size: 45px;
   margin: 30px; */
 }

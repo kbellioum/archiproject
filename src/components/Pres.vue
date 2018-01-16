@@ -319,7 +319,7 @@ export default {
 
 p {
   padding: 10px;
-  font-weight: 200;
+  font-weight: 300;
   text-align: justify;
 }
 
