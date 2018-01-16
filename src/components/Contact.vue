@@ -128,12 +128,6 @@ export default {
           subject: 'Vous avez reçu un message de la part de ' + this.data.subject + '<' + this.data.to + '>',
           text: this.data.text
         }
-        // params: {
-        //   // https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.archimedia.ma%2Findex.php%3Fformat%3Dfeed%26type%3Drss&api_key=wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui
-        //   rss_url: 'http://www.archimedia.ma/index.php?format=feed&type=rss',
-        //   api_key: 'wl6vfhwive3beojsb3arqjxlmtg8fkevdnlmfjui',
-        //   count: 5
-        // }
       })
       .then(response => {
         console.log('response satus', response.status)
