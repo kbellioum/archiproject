@@ -75,8 +75,11 @@
           <input type="file" @change="onFileChange">
         </div>
         <div v-else>
-          <!-- <img :src="image" /> -->
-          <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0">Envoyer</a>
+          <!-- <a :href="image">link</a> -->
+
+          <object id="pdf" :data="image" type="application/pdf"></object>
+          <br>
+          <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#0" @click="deliver">Envoyer</a>
           <br>
           <p>OK file uploaded</p>
           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black" @click="removeImage">Supprimer le CV</a>
@@ -111,6 +114,9 @@ export default {
       }
 
       this.createImage(files[0])
+    },
+    deliver () {
+      console.log(this.image)
     },
     createImage (file) {
       this.image = new Image()
