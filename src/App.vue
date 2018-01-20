@@ -124,7 +124,11 @@
 
       </div>
       <div class="deco"></div>
-      <div class="blackblad"></div>
+      <div class="blackblad">
+        <div style="background:black; text-align:center; margin:0px; padding:10px;">
+            <p style="color:grey; font-family:raleway; text-decoration: none;">©2017 Coded By <a style="color: gray;" href="https://www.itknowledge.ma">IT Knowledge Maroc</a></p>
+        </div>
+      </div>
     </footer>
 
   </div>
@@ -186,7 +190,7 @@ export default {
 </script>
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*nav {
   position: fixed;
   top: 65px;

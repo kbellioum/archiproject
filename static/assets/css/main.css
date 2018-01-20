@@ -289,9 +289,12 @@ footer {
 */
 
 .blackblad {
-    width: auto;
-    height: 10px;
-    background: black;
+  width: auto;
+  height: 20px;
+  background: black;
+  font-size: 12px;
+  /* color: gray; */
+  line-height: 10px;
 
 }
 
