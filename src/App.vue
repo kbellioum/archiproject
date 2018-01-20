@@ -126,7 +126,7 @@
       <div class="deco"></div>
       <div class="blackblad">
         <div style="background:black; text-align:center; margin:0px; padding:10px;">
-            <p style="color:grey; font-family:raleway; text-decoration: none;">©2017 Coded By <a style="color: gray;" href="https://www.itknowledge.ma">IT Knowledge Maroc</a></p>
+            <p style="color:grey; font-family:raleway; text-decoration: none;">©2017 Coded By <a style="color: #c7cfdb;" href="https://www.itknowledge.ma">IT Knowledge Maroc</a></p>
         </div>
       </div>
     </footer>
