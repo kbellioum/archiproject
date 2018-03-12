@@ -30,6 +30,11 @@ import Nouveau from '@/components/Nouveau'
 import NouveauDetail from '@/components/NouveauDetail'
 import HomeNouveau from '@/components/HomeNouveau'
 import Login from '@/components/Login'
+import Admin from '@/components/Admin'
+import Signup from '@/components/Signup'
+import Signin from '@/components/Signin'
+
+import AuthGuard from './auth-guard'
 
 Vue.use(Router)
 
@@ -39,6 +44,22 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/signin',
+      name: 'Signin',
+      component: Signin
+    },
+    {
+      path: '/signup',
+      name: 'Signup',
+      component: Signup
+    },
+    {
+      path: '/admin',
+      name: 'Admin',
+      component: Admin,
+      beforeEnter: AuthGuard
     },
     {
       path: '/proj/:id',

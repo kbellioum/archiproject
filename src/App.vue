@@ -4,9 +4,17 @@
       <a class="navbar-brand" href="/">
         <img src="/static/assets/images/logo_archidesign.png" width="45" height="45" alt="">
       </a>
+
+
       <div class="espace-client">
-        <div class="text"><span>Espace</span> client</div>
-        <a href="/login">
+        <div v-if="userIsAuthenticated" @click="onLogout" class="text">
+          <span>Log</span>out
+        </div>
+        <div v-else class="text"><span>Espace</span> client</div>
+        <a v-if="userIsAuthenticated" @click="onLogout">
+          <img src="/static/assets/images/user-1.png" width="45" height="45" alt="">
+        </a>
+        <a v-else href="/login">
           <img src="/static/assets/images/user-1.png" width="45" height="45" alt="">
         </a>
       </div>
@@ -148,7 +156,16 @@ export default {
       rss_title: []
     }
   },
+  computed: {
+    userIsAuthenticated () {
+      return this.$store.getters.user !== null && this.$store.getters.user !== undefined
+    }
+  },
   methods: {
+    onLogout () {
+      this.$router.push('/')
+      this.$store.dispatch('logout')
+    }
     // toAgence () {
     //   this.$router.push('/agence')
     // }
@@ -166,8 +183,8 @@ export default {
       }
     })
     .then(response => {
-      console.log('response satus', response.status)
-      console.log('response data', response.data.items)
+      // console.log('response satus', response.status)
+      // console.log('response data', response.data.items)
       // console.log('====== ' + response.feed.title + ' ======')
       this.rss_title = response.data.items
       // response.data.items[Math.floor(Math.random() * response.data.items.length)].title
@@ -183,7 +200,7 @@ export default {
       // this.infos = this.rss_title[Math.floor(Math.random() * this.rss_title.length)].title
       this.news.txt = ar.title
       this.news.link = ar.link
-      console.log(this.news)
+      // console.log(this.news)
     }, 20000)
   }
 }
