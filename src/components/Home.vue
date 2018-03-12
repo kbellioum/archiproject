@@ -52,7 +52,7 @@ export default {
         { backgroundColor: '#f44336', width: '100%', height: '100%', src: 'https://res.cloudinary.com/kbellioum/image/upload/v1515081795/Adrchiproject/BOUSKOURAGOLFCITY.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-4.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Bouskoura Golf City' }
         // { backgroundColor: '#f44336', width: '100%', height: '100%', src: 'https://res.cloudinary.com/kbellioum/image/upload/v1515264656/WhatsApp-Image-20160725_23_z8omr1.jpg', background: 'url(\'/static/assets/homeslider/images/big/img-slider-5.jpg\') no-repeat center center', backgroundSize: '100% 100%', title: 'Zenith Parc' }
       ]
-    }, 3000)
+    }, 1000)
     this.$nextTick(() => {
       window.addEventListener('resize', this.getWindowWidth)
       window.addEventListener('resize', this.getWindowHeight)
