@@ -105,7 +105,7 @@
               <span class="newsalign">News</span>
             </div>
             <div class="newsinfo">
-              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="left" width="400px">{{ news.txt }}</marquee>
+              <marquee class="infoalign" scrollamount="5" behavior="scroll" direction="left" width="600px">{{ news.txt }}</marquee>
             </div>
             <div class="youtube">
               <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
