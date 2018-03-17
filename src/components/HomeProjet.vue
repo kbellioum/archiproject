@@ -35,6 +35,7 @@ export default {
     }
   },
   created () {
+
     // axios({
     //   url: 'https://api.mailgun.net/v3/sandbox7fe163bd9a5b494c93fc6bdef403637f.mailgun.org/',
     //   method: 'POST',
@@ -75,7 +76,7 @@ export default {
   },
   computed: {
     projects () {
-      return this.$store.getters.getProjects
+      return this.$store.getters.getProjects.slice(0, 5)
     }
   }
 }
