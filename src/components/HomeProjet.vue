@@ -15,10 +15,7 @@
     <a :href="item.link" class="db aspect-ratio aspect-ratio--1x1 dim">
       <span role="img" :aria-label="item.name" :style="{ backgroundImage: 'url(' + item.image + ')' }" class="bg-center cover aspect-ratio--object">
         <header class="tc ph4">
-          <h1 class="f3 f2-m f1-l fw2 black-90 mv3">
-
-          </h1>
-          <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy">
+          <h2 class="f5 f4-m f3-l fw2 white-90 mt0 lh-copy">
             {{item.name}}
           </h2>
         </header>
@@ -238,6 +235,14 @@ body {
 
 .black-50 {
     color: rgba(0, 0, 0, .5);
+}
+
+.white-50 {
+  color: rgba(255, 255, 255, .5);
+}
+
+.white-90 {
+  color: rgba(255, 255, 255, .9);
 }
 
 .ph4 {
