@@ -7,6 +7,18 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
+    catproj: [
+      {cat: 'Amenag', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Amenagement', image: '../static/assets/projects/Amenag/cih/img00.jpg', link: '/proj/Amenag'},
+      {cat: 'CentreCom', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Centres Commerciaux', image: '../static/assets/projects/CentreCom/Moroccomall/img00.jpg', link: '/proj/CentreCom'},
+      {cat: 'Conco', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Concours', image: '../static/assets/projects/Conco/GrandstadedeCasablanca/img00.jpg', link: '/proj/Conco'},
+      {cat: 'Educ', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Education', image: '../static/assets/projects/Educ/Mundiapolis/img00.jpg', link: '/proj/Educ'},
+      {cat: 'Hospi', obj: {'fl': true, 'w-50': true, 'w-25-ns': false}, name: 'Hospitalier', image: '../static/assets/projects/Hospi/CliniqueGuess/img00.jpg', link: '/proj/Hospi'},
+      {cat: 'Institu', obj: {'fl': true, 'w-50': true, 'w-25-ns': false}, name: 'Institutionnel', image: '../static/assets/projects/Institu/ImmeubleBounkitSocrate2/img00.jpg', link: '/proj/Institu'},
+      {cat: 'Resid', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Residentiel', image: '../static/assets/projects/Resid/CaliforniaGolfRessort/img00.jpg', link: '/proj/Resid'},
+      {cat: 'Restau', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Restauration', image: '../static/assets/projects/Restau/LELIERRE/img00.jpg', link: '/proj/Restau'},
+      {cat: 'Touri', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Tourisme et loisirs', image: '../static/assets/projects/Touri/MariottHotelTetouen/img00.jpg', link: '/proj/Touri'},
+      {cat: 'urbapro', obj: {'fl': true, 'w-50': true, 'w-25-ns': true}, name: 'Urbanisme', image: '../static/assets/projects/Urbapro/VictoriaCity/img00.jpg', link: '/proj/Urbapro'}
+    ],
     projects: [
       // Amenag
       // {id: '2', source: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543287/Adrchiproject/31y.jpg', link: '/projets/detail/Mundiapolis', title: 'Mundiapolis', category: 'Amenag'},
@@ -849,6 +861,9 @@ export const store = new Vuex.Store({
     },
     getProjects (state) {
       return state.projects
+    },
+    getCatProjects (state) {
+      return state.catproj
     },
     getProjectByCategory (state) {
       return (category) => {
