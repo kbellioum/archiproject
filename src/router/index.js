@@ -31,6 +31,9 @@ import NouveauDetail from '@/components/NouveauDetail'
 import HomeNouveau from '@/components/HomeNouveau'
 import Login from '@/components/Login'
 import Admin from '@/components/Admin'
+import Config from '@/components/Config'
+import ConfProj from '@/components/Conf-Proj'
+import ConfSlid from '@/components/Conf-Slid'
 import Signup from '@/components/Signup'
 import Signin from '@/components/Signin'
 
@@ -58,7 +61,25 @@ export default new Router({
     {
       path: '/admin',
       name: 'Admin',
-      component: Admin,
+      component: Admin
+      // beforeEnter: AuthGuard
+    },
+    {
+      path: '/config',
+      name: 'Config',
+      component: Config,
+      beforeEnter: AuthGuard
+    },
+    {
+      path: '/conf-proj',
+      name: 'ConfProj',
+      component: ConfProj,
+      beforeEnter: AuthGuard
+    },
+    {
+      path: '/conf-slid',
+      name: 'ConfSlid',
+      component: ConfSlid,
       beforeEnter: AuthGuard
     },
     {

@@ -8,26 +8,12 @@
         </div>
         <br>
         <br>
-        <p style="color: white; padding-bottom: 7px;">Plate Forme Administration</p>
-        <!-- <form class="register-form"> -->
-          <!-- <input name="email" label="Mail" id="email" v-model="email" type="email" placeholder="Email"/>
-          <input name="password" label="Password" id="password" v-model="password" type="password" placeholder="password"/>
-          <input type="text" placeholder="email address"/>
-          <button>create</button> -->
-          <!-- <p class="message">Already registered? <a href="#">Sign In</a></p> -->
-        <!-- </form> -->
-        <form class="login-form" @submit.prevent="onSignin">
-          <input type="text" placeholder="Nom d'utilisateur" v-model="email"/>
-          <input type="password" placeholder="Mot de passe" v-model="password"/>
-          <!-- <button @click="onSignin">Connexion</button> -->
-          <v-btn type="submit" :disabled="loading" :loading="loading">
-            Sign in
-            <span slot="loader" class="custom-loader">
-              <v-icon light>cached</v-icon>
-            </span>
-          </v-btn>
-          <!-- <p class="message">Not registered? <a href="#">Create an account</a></p> -->
-        </form>
+        <p style="color: white; padding-bottom: 7px;">Menu de configuration</p>
+        <v-btn @click="jumptosliders">Slider images</v-btn>
+        <hr>
+        <v-btn @click="jumptoprojects">Projets</v-btn>
+
+
       </div>
     </div>
   </div>
@@ -60,6 +46,12 @@
       }
     },
     methods: {
+      jumptoprojects () {
+        this.$router.push('/conf-proj')
+      },
+      jumptosliders () {
+        this.$router.push('/conf-slid')
+      },
       onSignin () {
         this.$store.dispatch('signUserIn', {email: this.email, password: this.password})
       },
