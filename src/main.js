@@ -3,7 +3,6 @@ import App from './App'
 import router from './router'
 import { store } from './store'
 import Vuetify from 'vuetify'
-
 import VModal from 'vue-js-modal'
 import * as firebase from 'firebase'
 
@@ -21,6 +20,8 @@ new Vue({
   el: '#app',
   router,
   store,
+  // components: { App },
+  // template: '<App/>',
   render: h => h(App),
   created () {
     firebase.initializeApp({
