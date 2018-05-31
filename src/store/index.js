@@ -122,10 +122,27 @@ export const store = new Vuex.Store({
     ],
     elementsInvalides: 0,
     articles: [
-      {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article1'},
-      {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article2'},
-      {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article3'},
-      {title: 'Titre de l\'article', txt: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg', link: '/nouveau/detail/article4'}
+      {
+        id: 'article1',
+        title: 'Le Maroc célèbre la journée Internationale des Monuments et des sites',
+        txt: [
+          'En cette journée mondiale des monuments et des sites, ARCHIDESIGN souhaite rendre hommage à notre pays, qui n’est pas en reste sur les plans culturels et architecturaux.',
+          'L’histoire de notre pays aussi longue qu\'incroyable, marquée par les influences berbères, arabes et andalouses, a laissé sa trace au travers des nombreux monuments du pays.',
+          'Les nombreuses dynasties qu\'a connues le pays ont toutes apportées leur pierre à l\'édifice, depuis la construction de la cité de Volubilis par les Romains au 1er siècle jusqu\'à l\'édification de la mosquée Hassan II en 1992.',
+          'Aujourd\'hui, nous partageons avec vous une série de photo relative aux plus importants sites de notre pays.'
+        ],
+        image: 'https://res.cloudinary.com/kbellioum/image/upload/v1527780497/MOSQUEE_H2_B_uvbv5x.jpg',
+        thumb: 'https://res.cloudinary.com/kbellioum/image/upload/v1527780103/hassan2mosque_ozefsg.jpg',
+        link: '/nouveau/detail/article1'
+      },
+      {
+        id: 'article2',
+        title: 'Titre de l\'article',
+        txt: ['', '', '', ''],
+        image: 'https://res.cloudinary.com/kbellioum/image/upload/v1514543655/Adrchiproject/BNK_94.jpg',
+        thumb: 'https://res.cloudinary.com/kbellioum/image/upload/v1527780103/hassan2mosque_ozefsg.jpg',
+        link: '/nouveau/detail/article2'
+      }
     ],
     detailProj: [
       // Amenag
@@ -881,6 +898,14 @@ export const store = new Vuex.Store({
           return proj.name === name
         })
       }
+    },
+    getArticle (state) {
+      return (id) => {
+        return state.articles.find(item => item.id === id)
+      }
+    },
+    getArticles (state) {
+      return state.articles
     },
     user (state) {
       return state.user

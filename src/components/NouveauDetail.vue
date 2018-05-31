@@ -1,14 +1,15 @@
 <template>
   <div class="home">
     <div class="image">
-      <img src="https://placeimg.com/640/200/arch" alt="">
+      <img :src="article.image" alt="">
     </div>
     <div class="titre">
-      <h1>{{ id }}</h1>
+      <h1>{{ article.title }}</h1>
     </div>
     <div class="article">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p v-for="para in article.txt" class="justify" style="margin-bottom: 10px;">
+          <!-- {{ article.txt }} -->
+          {{ para }}
         </p>
     </div>
     <hr>
@@ -53,8 +54,10 @@ export default {
     }
   },
   computed: {
-    getprojet () {
-      return this.projet
+    article () {
+      console.log(this.$store.getters.getArticle(this.id))
+      return this.$store.getters.getArticle(this.id)
+      // return this.$store.getters.getArticles
     }
   },
   mounted () {
